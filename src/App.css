@@ -1,0 +1,56 @@
+/* *{
+  border: 2px solid;
+} */
+.App {
+  text-align: center;
+}
+.app{
+  text-align: center;
+  min-height:100vh;
+  width: auto;
+  background:#eeeeee;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.content{
+  /* height:100 vh; */
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin:100px;
+
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background: #333333;
+  color: #eeeeee;
+}
+
+.nav-link{
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+
+}
+.pic{
+  width:25vw;
+
+}
+.tweet{
+  height: 200px;
+  width:200px;
+
+  /* background:white; */
+  /* border-radius: 30px; */
+
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
