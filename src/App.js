@@ -10,6 +10,7 @@ import portfolio2 from './img/pic2.jpg';
 import portfolio3 from './img/pic3.jpg';
 import portfolio4 from './img/pic4.jpg';
 import portfolio5 from './img/pic5.jpg';
+import portfolio6 from './img/pic6.GIF';
 
 
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
@@ -19,9 +20,9 @@ function App() {
     { image:portfolio1 ,name:"", message:"" },
     { image:portfolio3 ,name:"", message:"" },
     { image:portfolio5 ,name:"",message:"" },
-    { image:portfolio4 ,name:"",message:"" },
     { image:portfolio2 ,name:"",message:"" },
-    { image:portfolio3 ,name:"",message:"" }
+    { image:portfolio4 ,name:"",message:"" },
+    { image:portfolio6 ,name:"",message:"" }
   ]);
   
 
