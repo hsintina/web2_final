@@ -4,20 +4,26 @@ import './App.css';
 import Nav from './Nav';
 import About from './About';
 import Work from './Work';
-import Tweet from './Portfolio';
-import portfolio1 from './img/portfolio1.jpg';
-import portfolio2 from './img/portfolio2.jpg';
-import portfolio3 from './img/portfolio3.jpg';
+import Gallery from './Portfolio';
+import portfolio1 from './img/pic1.jpg';
+import portfolio2 from './img/pic2.jpg';
+import portfolio3 from './img/pic3.jpg';
+import portfolio4 from './img/pic4.jpg';
+import portfolio5 from './img/pic5.jpg';
 
 
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 function App() {
   const [users, setUsers] = useState([
-    { image:portfolio1 ,name:"AAA", message:"Project1" },
-    { image:portfolio2 ,name: "BBB", message:"Project2" },
-    { image:portfolio3 ,name:"CCC",message:"Project3" }
+    { image:portfolio1 ,name:"", message:"" },
+    { image:portfolio3 ,name:"", message:"" },
+    { image:portfolio5 ,name:"",message:"" },
+    { image:portfolio4 ,name:"",message:"" },
+    { image:portfolio2 ,name:"",message:"" },
+    { image:portfolio3 ,name:"",message:"" }
   ]);
+  
 
   return (
     // <Router>
@@ -32,10 +38,10 @@ function App() {
     // </div>
     // </Router>
     <div className="app">
-    <h1>Home Page</h1>
+    <h1 className="title">Hsin Tina</h1>
     <div className="content">
       {users.map(user => (
-        <Tweet image={user.image} name={user.name} message={user.message} />
+        <Gallery image={user.image} name={user.name} message={user.message} />
       ))}
     </div>
 

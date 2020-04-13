@@ -1,8 +1,8 @@
 import React from 'react';
 
-function Tweet({image,name,message}){
+function Gallery({image,name,message}){
     return(
-        <div className="tweet">
+        <div className="gallery">
             <img className="pic" src={image} alt=' portfolio pic' />
             <h3>{name}</h3>
             <p>{message}</p>
@@ -10,4 +10,4 @@ function Tweet({image,name,message}){
     );
 }
 
-export default Tweet;
+export default Gallery;

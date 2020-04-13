@@ -1,6 +1,10 @@
 /* *{
   border: 2px solid;
 } */
+
+.title{
+  margin-top:70px;
+}
 .App {
   text-align: center;
 }
@@ -17,9 +21,11 @@
   /* height:100 vh; */
   display:flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-around;
-  align-items: center;
-  margin:100px;
+  align-items: left;
+  align-content:flex-start;
+  
 
 }
 nav{
@@ -40,17 +46,18 @@ nav{
 
 }
 .pic{
-  width:25vw;
+  width:30vw;
 
 }
-.tweet{
-  height: 200px;
-  width:200px;
+.gallery{
+  /* height: 200px; */
+  /* width:200px; */
 
-  /* background:white; */
+  /* background:red; */
   /* border-radius: 30px; */
 
   display:flex;
   flex-direction: column;
   justify-content: space-around;
+  margin:0px;
 }
