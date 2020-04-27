@@ -1,12 +1,17 @@
-/* *{
-  border: 2px solid;
-} */
+*{
+  /* border: 2px solid; */
+  font-family:  "Merriweather", Courier, serif;
+}
 
 .title{
   margin-top:70px;
+  font-size: 40px;
+  font-weight: 500;
+  /* letter-spacing: 1px; */
 }
 .App {
   text-align: center;
+
 }
 .app{
   text-align: center;
@@ -25,39 +30,124 @@
   justify-content: space-around;
   align-items: left;
   align-content:flex-start;
-  
 
+
+}
+.profile{
+  width:10vw;
+  position:relative;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  left:45vw;
+  /* top:-10vh; */
 }
 nav{
   display: flex;
-  justify-content: space-around;
+  justify-content:center;
   align-items: center;
   min-height: 10vh;
-  background: #333333;
-  color: #eeeeee;
+  /* background: aqua; */
+  color: #4d3e3e;
+  font-size: 12px;
+  margin-bottom: 100px;
+  margin-top:50px;
+  /* border:solid; */
 }
-
+a{
+  text-decoration: none;
+  color:#888888;
+}
+a:active{
+  color:#888888;
+}
+a:hover{
+  color:#777777;
+}
+a:visited{
+  color:#888888;
+}
 .nav-link{
   width: 40%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   list-style-type: none;
+}
+span {
+  position: relative;
+  display: block;
+  cursor: pointer;
+}
 
+span:before, span:after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 1px;
+  top: 50%;
+  margin-top: -0.5px;
+  background: #888888;
+}
+
+span:before {
+  left: -2.5px;
+}
+span:after {
+  right: 2.5px;
+  background: #888888;
+  transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+span:hover:before {
+  background: #888888;
+  width: 110%;
+  transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+span:hover:after {
+  background: transparent;
+  width: 100%;
+  transition: 0s;
 }
 .pic{
-  width:30vw;
+  position: relative;
+  width:32.5vw;
+  transition:1s;
+  top:-20vw;
 
 }
+
+.pic:hover{
+  opacity:20%;
+}
+
 .gallery{
-  /* height: 200px; */
-  /* width:200px; */
-
-  /* background:red; */
-  /* border-radius: 30px; */
-
+  position:relative;
   display:flex;
+
   flex-direction: column;
   justify-content: space-around;
   margin:0px;
+  height:33vw;
+  top:10vw;
 }
+
+.info{
+position: relative;
+display:flex;
+flex-direction:column;
+justify-content: center;
+
+text-align:center;
+align-items:center;
+/* margin-top: 10vw;
+margin-bottom: 10vw; */
+/* opacity:0%; */
+transition: 1s;
+/* background-color: #eeeeee; */
+}
+
+/* .info:hover{
+  opacity:70%;
+} */
