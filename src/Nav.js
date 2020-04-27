@@ -25,6 +25,9 @@ function Nav() {
            <Link style={navStyle} to='/illustration'>
            <li><span>Illustration</span></li>
            </Link>
+           <Link style={navStyle} to='/starbucks'>
+           <li><span>Starbucks</span></li>
+           </Link>
 
 
        </ul>
