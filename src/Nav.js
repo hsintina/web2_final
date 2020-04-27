@@ -26,6 +26,7 @@ function Nav() {
            <li><span>Illustration</span></li>
            </Link>
 
+
        </ul>
    </nav>
   );

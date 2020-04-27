@@ -6,7 +6,7 @@ import portfolio3 from './img/pic03.gif';
 import portfolio4 from './img/pic4.gif';
 import portfolio5 from './img/pic05.gif';
 import portfolio6 from './img/pic6.GIF';
-import profile from './img/pin.gif';
+import profile from './img/pin2.gif';
 import Nav from './Nav';
 function Hp(){
     const [users, setUsers] = useState([

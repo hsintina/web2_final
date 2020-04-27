@@ -9,6 +9,7 @@
   font-weight: 500;
   /* letter-spacing: 1px; */
 }
+
 .App {
   text-align: center;
 
@@ -119,7 +120,7 @@ span:hover:after {
 }
 
 .pic:hover{
-  opacity:20%;
+  opacity:30%;
 }
 
 .gallery{
@@ -151,3 +152,27 @@ transition: 1s;
 /* .info:hover{
   opacity:70%;
 } */
+.worktitle{ 
+  text-align: left;
+  margin-left: 10vw;
+  margin-top:30vh;
+  font-size: 15px;
+  font-weight: 200;
+}
+
+.worktitle p{
+  font-size: 15px;
+}
+
+.banner{
+  position: relative;
+  width:90vw;
+  /* top:-20px; */
+  /* right: 18vw; */
+  z-index: -1;
+  opacity: 90%;
+}
+.section1{
+
+
+}

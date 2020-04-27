@@ -5,6 +5,7 @@ import './App.css';
 import About from './About';
 import Work from './Work';
 import Illustration from './Illustration';
+import Starbucks from './Starbucks';
 import Hp from './Hp';
 
 
@@ -22,6 +23,7 @@ function App() {
       <Route path="/about" component={About}/>
       <Route path="/motion" component={Work}/>
       <Route path="/illustration" component={Illustration}/>
+      <Route path="/starbucks" component={Starbucks}/>
       </Switch>
 
     </div>

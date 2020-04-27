@@ -8,17 +8,19 @@ import portfolio5 from './img/pic05.gif';
 import portfolio6 from './img/pic6.GIF';
 import profile from './img/pin.gif';
 import Nav from './Nav';
+import{ Link } from 'react-router-dom';
+
 
 import './App.css';
 
 function Work() {
   const [users, setUsers] = useState([
-    { image:portfolio1 ,name:"STARBUCKS", message:"Global Branding Design" },
-    { image:portfolio3 ,name:"STARBUCKS", message:"Global Branding Design" },
-    { image:portfolio5 ,name:"STARBUCKS",message:"Global Branding Design" },
-    { image:portfolio2 ,name:"STARBUCKS",message:"Global Branding Design" },
-    { image:portfolio4 ,name:"STARBUCKS",message:"Global Branding Design" },
-    { image:portfolio6 ,name:"Anglerfish",message:"doodle" }
+    { image:portfolio1 ,name:"STARBUCKS", message:"Global Branding Design", link:'/starbucks' },
+    { image:portfolio3 ,name:"STARBUCKS", message:"Global Branding Design", link:'/starbucks' },
+    { image:portfolio5 ,name:"STARBUCKS",message:"Global Branding Design", link:'/starbucks' },
+    { image:portfolio2 ,name:"STARBUCKS",message:"Global Branding Design", link:'/starbucks'},
+    { image:portfolio4 ,name:"STARBUCKS",message:"Global Branding Design", link:'/starbucks'},
+    { image:portfolio6 ,name:"Anglerfish",message:"doodle", link:'/starbucks' }
   ]);
   return (
     <div className="app">
@@ -26,7 +28,7 @@ function Work() {
       <Nav />
       <div className="content">
       {users.map(user => (
-        <Gallery image={user.image} name={user.name} message={user.message} />
+        <Gallery image={user.image} name={user.name} message={user.message} link={user.link}/>
       ))}
     </div>
     </div>
