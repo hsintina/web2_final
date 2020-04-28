@@ -131,7 +131,7 @@ span:hover:after {
   margin:0px;
   height:33vw;
   top:10vw;
-  background-color: #eeeeee;
+  
 }
 
 .info{
@@ -141,6 +141,7 @@ flex-direction:column;
 justify-content: center;
 text-align:center;
 align-items:center;
+
 }
 
 
