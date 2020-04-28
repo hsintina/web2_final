@@ -144,14 +144,11 @@ text-align:center;
 align-items:center;
 /* margin-top: 10vw;
 margin-bottom: 10vw; */
-/* opacity:0%; */
 transition: 1s;
 /* background-color: #eeeeee; */
 }
 
-/* .info:hover{
-  opacity:70%;
-} */
+
 .worktitle{ 
   text-align: left;
   margin-left: 10vw;
@@ -171,8 +168,4 @@ transition: 1s;
   /* right: 18vw; */
   z-index: -1;
   opacity: 90%;
-}
-.section1{
-
-
 }
