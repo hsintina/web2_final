@@ -119,9 +119,9 @@ span:hover:after {
 
 }
 
-/* .pic:hover{
-  opacity:50%;
-} */
+.pic:hover{
+  opacity:30%;
+}
 
 .gallery{
   position:relative;
@@ -142,10 +142,8 @@ justify-content: center;
 
 text-align:center;
 align-items:center;
-/* margin-top: 10vw;
-margin-bottom: 10vw; */
 transition: 1s;
-/* background-color: #eeeeee; */
+
 }
 
 
@@ -164,8 +162,6 @@ transition: 1s;
 .banner{
   position: relative;
   width:90vw;
-  /* top:-20px; */
-  /* right: 18vw; */
   z-index: -1;
   opacity: 90%;
 }
