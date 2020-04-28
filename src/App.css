@@ -126,12 +126,12 @@ span:hover:after {
 .gallery{
   position:relative;
   display:flex;
-
   flex-direction: column;
   justify-content: space-around;
   margin:0px;
   height:33vw;
   top:10vw;
+  background-color: #eeeeee;
 }
 
 .info{
