@@ -139,11 +139,8 @@ position: relative;
 display:flex;
 flex-direction:column;
 justify-content: center;
-
 text-align:center;
 align-items:center;
-transition: 1s;
-
 }
 
 
