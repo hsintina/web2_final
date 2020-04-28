@@ -162,6 +162,5 @@ transition: 1s;
 .banner{
   position: relative;
   width:90vw;
-  z-index: -1;
   opacity: 90%;
 }
