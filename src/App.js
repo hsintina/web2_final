@@ -7,8 +7,7 @@ import Work from './Work';
 import Illustration from './Illustration';
 import Starbucks from './Starbucks';
 import Hp from './Hp';
-
-
+import ScrollToTop from './ScrollToTop';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 function App() {
@@ -16,6 +15,7 @@ function App() {
 
   return (
     <Router>
+    <ScrollToTop />
     <div className="App">
       
       <Switch>
