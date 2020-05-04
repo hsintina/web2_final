@@ -1,7 +1,7 @@
 import React from 'react';
 import Nav from './Nav';
 import './App.css';
-
+import logo from './img/logo.png';
 import styleframe1 from './img/pic801.jpg';
 import styleframe2 from './img/pic802.jpg';
 import styleframe3 from './img/pic803.jpg';
@@ -13,6 +13,9 @@ import Footer from './Footer';
 function Title() {
   return (
     <div>
+      <div>
+      <img className="logoo" src={logo} alt="logo" />
+      </div>
        <Nav />
        <div className="section1">
          <div className="wording">
@@ -22,21 +25,28 @@ function Title() {
               <hr/>
               <br/>
               <p>Re-producing the title sequence of Zootopia into 2D style.</p>
+              <br/>
+              <br/>
               <h2 className="subtitle"> Styleframes</h2>
             </div>
           </div>
           <div className="visual">
-            <iframe className="video" src="https://player.vimeo.com/video/414278732?title=0"   frameborder="0" allow="autoplay fullscreen" allowFullScreen></iframe>
+          <div className="playerr">
+            <iframe className="videor" src="https://player.vimeo.com/video/414278732?color=ffffff&title=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen>
+            </iframe>
+          </div>
+          <script src="https://player.vimeo.com/api/player.js"></script>
+            {/* <iframe className="video" src="https://player.vimeo.com/video/414278732?title=0"   frameborder="0" allow="autoplay fullscreen" allowFullScreen></iframe> */}
+            <div className="styleframes">
             <img className="styleframe" src={styleframe1} alt="picture1" />
             <img className="styleframe" src={styleframe2} alt="picture2" />
             <img className="styleframe" src={styleframe3} alt="picture3" />
             <img className="styleframe" src={styleframe4} alt="picture4" />
             <div><Footer/></div>
+            </div>
           </div>
 
-        <div>
 
-     </div>
      </div>
     
      </div>

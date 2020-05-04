@@ -10,7 +10,7 @@ html,body{
 }
 .title{
   margin-top:70px;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 500;
   /* letter-spacing: 1px; */
 }
@@ -33,6 +33,17 @@ html,body{
   flex-direction: column;
   justify-content: space-around;
   
+}
+.logo{
+  position:absolute;
+  top:5vh;
+  width:10vw;
+}
+.logoo{
+  position:absolute;
+  top:5vh;
+  width:10vw;
+  margin-left:20vw;
 }
 .content{
   /* height:100 vh; */
@@ -201,13 +212,8 @@ color:white;
 }
 .subtitle{
   position: relative;
-  top:22vh;
+  top:5vh;
   font-weight: 200;
-}
-.banner{
-  position: relative;
-  width:90vw;
-  opacity: 90%;
 }
 .section1{
 display:flex;
@@ -222,16 +228,31 @@ justify-content:space-evenly;
 .visual{
   width:60vw;
   height:100vh;
+  /* display:flex;
+  flex-direction: column; */
 }
 .reel{
   position:relative;
   display:flex;
   justify-content: center;
-  width:720px;
-  height:405px;
+  /* width:720px;
+  height:405px; */
   left:20vw;
   top:-15px;
 }
+.reelr{
+  position:absolute;
+  top:-15px;
+  width:70%;
+  height:70%;
+}
+.player{
+  padding:56.25% 0 0 0;
+  position:relative;
+  display:flex;
+  justify-content:center;
+}
+
 .video{
   position:relative;
   display:flex;
@@ -240,21 +261,53 @@ justify-content:space-evenly;
   height:360px;
   margin-bottom:80px;
 }
+.playerr{
+  padding:0 0 0 0;
+  /* position:relative; */
+  
+}
+.videor{
+  position:absolute;
+  display:flex;
+  justify-content:flex-end;
+  width:50%;
+  height:50%;
+  margin-bottom:80px;
+}
+.styleframes{
+  position:relative;
+  display:flex;
+  flex-direction:column;
+  top:55vh;
+}
 .styleframe{
   position:relative;
   display:flex;
   justify-content: flex-end;
-  width: 620px;
+  width: 80%;
   padding:10px;
+  /* margin-top: 5vh; */
 }
 
 .footer{
   position: relative;
+  /* bottom: -50px; */
   display:flex;
   justify-content:flex-end;
   z-index:1;
   margin-top:5vh;
-  margin-right:45vw;
+  margin-right:42.5vw;
+  margin-bottom:2vh;
+  /* background-color: aqua; */
+}
+.footers{
+  position: relative;
+  /* bottom: -50px; */
+  display:flex;
+  justify-content:flex-end;
+  z-index:1;
+  margin-top:55vh;
+  margin-right:42.5vw;
   margin-bottom:2vh;
   /* background-color: aqua; */
 }

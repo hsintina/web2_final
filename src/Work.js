@@ -11,6 +11,7 @@ import portfolio8 from './img/pic8.gif';
 import portfolio9 from './img/pic9.gif';
 import Nav from './Nav';
 import Footer from './Footer';
+import logo from './img/logo.png';
 
 import './App.css';
 
@@ -23,14 +24,17 @@ function Work() {
     { image:portfolio4 ,name:"STARBUCKS",message:"ident", link:'/starbucks'},
     { image:portfolio6 ,name:"Anglerfish",message:"doodle", link:'/anglerfish' },
     { image:portfolio8 ,name:"Zootopia",message:"title", link:'/title' },
-    { image:portfolio9 ,name:"Untitle",message:"to life", link:'/life' },
+    { image:portfolio9 ,name:"Still",message:"to life", link:'/life' },
     { image:portfolio7 ,name:"Suckway",message:"2D", link:'/suckway' }
     
 
   ]);
   return (
     <div className="app">
-      <h1 className="title">Motion Design</h1>
+      <div>
+      <img className="logo" src={logo} alt="logo" />
+      </div>
+      <h1 className="title">Motion</h1>
       <Nav />
       <div className="content">
       {users.map(user => (

@@ -7,7 +7,7 @@ function Gif({title,subtitle,picture1,picture2}) {
        <div className="section1">
          <div className="wording">
             <div className="worktitle">
-              <h1>{title}</h1>
+              <h1 className="projectName">{title}</h1>
               <p>{subtitle}</p>
             </div>
           </div>

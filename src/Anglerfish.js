@@ -1,6 +1,6 @@
 import React , {useState} from 'react';
 import Gif from './Gif';
-
+import logo from './img/logo.png';
 import styleframe1 from './img/fish1280.gif'
 import styleframe2 from './img/sketch.gif'
 import Nav from './Nav';
