@@ -22,9 +22,9 @@ function Work() {
     { image:portfolio2 ,name:"STARBUCKS",message:"ident", link:'/starbucks'},
     { image:portfolio4 ,name:"STARBUCKS",message:"ident", link:'/starbucks'},
     { image:portfolio6 ,name:"Anglerfish",message:"doodle", link:'/anglerfish' },
-    { image:portfolio8 ,name:"Zootopia",message:"title sequence", link:'/title' },
-    { image:portfolio9 ,name:"Untitle",message:"still to life", link:'/life' },
-    { image:portfolio7 ,name:"Suckway",message:"2D animation", link:'/suckway' }
+    { image:portfolio8 ,name:"Zootopia",message:"title", link:'/title' },
+    { image:portfolio9 ,name:"Illustration",message:"to life", link:'/life' },
+    { image:portfolio7 ,name:"Suckway",message:"2D", link:'/suckway' }
     
 
   ]);
