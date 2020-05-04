@@ -1,27 +1,38 @@
 *{
   /* border: 2px solid; */
-  font-family:  "Merriweather", Courier, serif;
+  font-family:  "merriweather", Courier, serif;
 }
-
+html,body{
+  height:100vh;
+  min-width:100vw;
+  padding:0;
+  margin:0;
+}
 .title{
   margin-top:70px;
   font-size: 40px;
   font-weight: 500;
   /* letter-spacing: 1px; */
 }
-
+.intro{
+  margin:10vh 30vw;
+  font-weight:200;
+  /* letter-spacing: 1px; */
+  line-height: 2em;
+  font-size: 10pt;
+}
 .App {
   text-align: center;
-
+  min-height:100%;
 }
 .app{
   text-align: center;
-  min-height:100vh;
+  min-height:100%;
   width: auto;
-  background:#eeeeee;
   display:flex;
   flex-direction: column;
   justify-content: space-around;
+  
 }
 .content{
   /* height:100 vh; */
@@ -31,7 +42,6 @@
   justify-content: space-around;
   align-items: left;
   align-content:flex-start;
-
 
 }
 .profile{
@@ -143,21 +153,37 @@ text-align:center;
 align-items:center;
 
 }
-
+hr{
+  width:10%;
+  text-align: left;
+  margin-left:0;
+}
 
 .worktitle{ 
   text-align: left;
   margin-left: 10vw;
   /* margin-top:30vh; */
   font-size: 15px;
-  font-weight: 200;
   /* border: solid 2px; */
+  padding:5vw;
+  color:#4d3e3e;
+}
+.worktitle p{
+  line-height: 2em;
+  color:#555555;
+}
+.projectName{
+  font-weight: 500;
 }
 
 .worktitle p{
   font-size: 15px;
 }
-
+.subtitle{
+  position: relative;
+  top:22vh;
+  font-weight: 200;
+}
 .banner{
   position: relative;
   width:90vw;
@@ -165,7 +191,6 @@ align-items:center;
 }
 .section1{
 display:flex;
-
 align-items: flex-start;
 justify-content:space-evenly;
 }
@@ -177,11 +202,15 @@ justify-content:space-evenly;
 .visual{
   width:60vw;
   height:100vh;
-  /* display:flex;
-  flex-direction: column;
-  justify-content: flex-start; */
-
-  /* background:blue; */
+}
+.reel{
+  position:relative;
+  display:flex;
+  justify-content: center;
+  width:720px;
+  height:405px;
+  left:20vw;
+  top:-15px;
 }
 .video{
   position:relative;
@@ -197,5 +226,20 @@ justify-content:space-evenly;
   justify-content: flex-end;
   width: 620px;
   padding:10px;
+}
 
+.footer{
+  position: relative;
+  display:flex;
+  justify-content:flex-end;
+  z-index:1;
+  margin-top:5vh;
+  margin-right:45vw;
+  margin-bottom:2vh;
+  /* background-color: aqua; */
+}
+
+.icon{
+  padding:15px;
+  width:15px;
 }

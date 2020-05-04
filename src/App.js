@@ -8,7 +8,13 @@ import Illustration from './Illustration';
 import Starbucks from './Starbucks';
 import Hp from './Hp';
 import ScrollToTop from './ScrollToTop';
+import Anglerfish from './Anglerfish';
+import Life from './Life.js';
+import Title from './Title.js';
+import Suckway from './Suckway.js';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+
+
 
 function App() {
   
@@ -24,8 +30,11 @@ function App() {
       <Route path="/motion" component={Work}/>
       <Route path="/illustration" component={Illustration}/>
       <Route path="/starbucks" component={Starbucks}/>
+      <Route path="/anglerfish" component={Anglerfish}/>
+      <Route path="/life" component={Life}/>
+      <Route path="/title" component={Title}/>
+      <Route path="/suckway" component={Suckway}/>
       </Switch>
-
     </div>
     </Router>
     

@@ -8,6 +8,7 @@ import portfolio5 from './img/pic05.gif';
 import portfolio6 from './img/pic6.GIF';
 import profile from './img/pin2.gif';
 import Nav from './Nav';
+import Footer from './Footer';
 function Hp(){
     const [users, setUsers] = useState([
         { image:portfolio1 ,name:"STARBUCKS", message:"Global Branding Design" },
@@ -18,17 +19,16 @@ function Hp(){
         { image:portfolio6 ,name:"Anglerfish",message:"doodle" }
       ]);
     return(
-    <div>
+    <div className="app">
      <h1 className="title">Hsin Tina</h1>
      <Nav />
-     <div><img className="profile" src={profile} alt="profile"/></div>
-     {/* <div className="content">
-      {users.map(user => (
-        <Gallery image={user.image} name={user.name} message={user.message} />
-      ))}
-    </div> */}
-
+     <div>
+     <iframe className="reel" src="https://player.vimeo.com/video/414398968?color=ffffff&title=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
     </div>
+    <div><Footer/></div>
+    </div>
+    
+ 
     );
 
 }
