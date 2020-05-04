@@ -143,7 +143,9 @@ span:hover:after {
   top:10vw;
   
 }
-
+.gallery:hover .info{
+  color:#4d3e3e;
+}
 .info{
 position: relative;
 display:flex;
@@ -151,7 +153,7 @@ flex-direction:column;
 justify-content: center;
 text-align:center;
 align-items:center;
-
+color:white;
 }
 hr{
   width:10%;

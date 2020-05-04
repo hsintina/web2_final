@@ -1,7 +1,7 @@
 import React from 'react';
 import Nav from './Nav';
 import './App.css';
-import banner from './img/sbanner.jpg';
+
 import styleframe1 from './img/starbucks1.jpg';
 import styleframe2 from './img/starbucks2.jpg';
 import styleframe3 from './img/starbucks3.jpg';
