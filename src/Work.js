@@ -23,7 +23,7 @@ function Work() {
     { image:portfolio4 ,name:"STARBUCKS",message:"ident", link:'/starbucks'},
     { image:portfolio6 ,name:"Anglerfish",message:"doodle", link:'/anglerfish' },
     { image:portfolio8 ,name:"Zootopia",message:"title", link:'/title' },
-    { image:portfolio9 ,name:"Illustration",message:"to life", link:'/life' },
+    { image:portfolio9 ,name:"Untitle",message:"to life", link:'/life' },
     { image:portfolio7 ,name:"Suckway",message:"2D", link:'/suckway' }
     
 
