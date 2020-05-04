@@ -1,6 +1,6 @@
 *{
   /* border: 2px solid; */
-  font-family:  "merriweather", "Libre Baskerville", serif;
+  font-family:  "merriweather", "Baskerville", serif;
 }
 html,body{
   height:100vh;
@@ -67,7 +67,7 @@ a:visited{
 
 .back{
   position:relative;
-  left:15vw;
+  left:14vw;
   top:1vh;
   font-size:10px;
   letter-spacing: 0.35pt;
@@ -197,6 +197,7 @@ justify-content: center;
 text-align:center;
 align-items:center;
 color:white;
+
 }
 .worktitle hr{
   width:10%;

@@ -8,6 +8,8 @@ import styleframe4 from './img/pic904.gif';
 import styleframe5 from './img/pic905.png';
 import styleframe6 from './img/pic906.gif';
 import styleframe7 from './img/pic907.gif';
+import styleframe8 from './img/pic908.jpg';
+import styleframe9 from './img/pic909.jpg';
 import Footer from './Footer';
 import logo from './img/logo.png';
 import{ Link } from 'react-router-dom';
@@ -41,13 +43,15 @@ function Suckway() {
           {/* <div className="visual">
             <iframe className="video" src="https://player.vimeo.com/video/412008860?title=0"   frameborder="0" allow="autoplay fullscreen" allowFullScreen></iframe> */}
             <div className="styleframes">
+              <img className="styleframe" src={styleframe8} alt="picture8" />
+              <img className="styleframe" src={styleframe9} alt="picture9" />
               <img className="styleframe" src={styleframe1} alt="picture1" />
               <img className="styleframe" src={styleframe2} alt="picture2" />
               <img className="styleframe" src={styleframe3} alt="picture3" />
               <img className="styleframe" src={styleframe4} alt="picture4" />
               <img className="styleframe" src={styleframe5} alt="picture5" />
               <div >
-                <Link className="back" to='/motion'>Back to Gallery</Link>
+                <Link className="back" to='/motion'>⟵ Back to Gallery</Link>
               </div>
               <div><Footer/></div>
             </div>

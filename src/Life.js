@@ -4,6 +4,7 @@ import './App.css';
 import styleframe1 from './img/pic901.jpg';
 import styleframe2 from './img/pic902.jpg';
 import styleframe3 from './img/pic903.jpg';
+import styleframe5 from './img/pic905.jpg';
 import logo from './img/logo.png';
 import Footer from './Footer';
 import{ Link } from 'react-router-dom';
@@ -19,8 +20,8 @@ function Life() {
        <div className="section1">
          <div className="wording">
             <div className="worktitle">
-              <h1 className="projectName">Untitle</h1>
-              <p>Illustration to life</p>
+              <h1 className="projectName">Still</h1>
+              <p>to life</p>
               <hr/>
               <br/>
               <p>Animated from the illustration work of <a target="_blank" href="https://www.malikafavre.com/">Malika Favre</a></p>
@@ -43,11 +44,12 @@ function Life() {
           </div>
           <script src="https://player.vimeo.com/api/player.js"></script>
           <div className="styleframes">
+            <img className="styleframe" src={styleframe5} alt="picture5" />
+            <img className="styleframe" src={styleframe3} alt="picture3" />
             <img className="styleframe" src={styleframe1} alt="picture1" />
             <img className="styleframe" src={styleframe2} alt="picture2" />
-            <img className="styleframe" src={styleframe3} alt="picture3" />
             <div >
-              <Link className="back" to='/motion'>Back to Gallery</Link>
+              <Link className="back" to='/motion'>⟵ Back to Gallery</Link>
             </div>  
             <div><Footer/></div>
           </div>

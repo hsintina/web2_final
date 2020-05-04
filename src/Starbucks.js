@@ -45,7 +45,7 @@ function Starbucks() {
             <img className="styleframe" src={styleframe3} alt="picture3" />
             <img className="styleframe" src={styleframe4} alt="picture4" />
             <div >
-       <Link className="back" to='/motion'>Back to Gallery</Link>
+       <Link className="back" to='/motion'>⟵ Back to Gallery</Link>
         </div>
             <div><Footer/></div>
           </div>
