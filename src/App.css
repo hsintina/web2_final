@@ -65,6 +65,22 @@ nav{
   margin-top:50px;
   /* border:solid; */
 }
+.abt{
+  position:relative;
+  top:-10vh;
+}
+.abt h2{
+  position: relative;
+  top:5vh;
+  font-weight:500;
+}
+.abt p{
+  position: relative;
+  top:-1vh;
+}
+.abt img{
+  width:15vw;
+}
 a{
   text-decoration: none;
   color:#888888;
@@ -131,6 +147,7 @@ span:hover:after {
 
 .pic:hover{
   opacity:30%;
+  
 }
 
 .gallery{
@@ -145,6 +162,7 @@ span:hover:after {
 }
 .gallery:hover .info{
   color:#4d3e3e;
+  cursor:pointer;
 }
 .info{
 position: relative;
@@ -155,7 +173,7 @@ text-align:center;
 align-items:center;
 color:white;
 }
-hr{
+.worktitle hr{
   width:10%;
   text-align: left;
   margin-left:0;

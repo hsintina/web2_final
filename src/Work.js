@@ -16,14 +16,14 @@ import './App.css';
 
 function Work() {
   const [users, setUsers] = useState([
-    { image:portfolio1 ,name:"STARBUCKS", message:"Global Branding Design", link:'/starbucks' },
-    { image:portfolio3 ,name:"STARBUCKS", message:"Global Branding Design", link:'/starbucks' },
-    { image:portfolio5 ,name:"STARBUCKS",message:"Global Branding Design", link:'/starbucks' },
-    { image:portfolio2 ,name:"STARBUCKS",message:"Global Branding Design", link:'/starbucks'},
-    { image:portfolio4 ,name:"STARBUCKS",message:"Global Branding Design", link:'/starbucks'},
+    { image:portfolio1 ,name:"STARBUCKS", message:"ident", link:'/starbucks' },
+    { image:portfolio3 ,name:"STARBUCKS", message:"ident", link:'/starbucks' },
+    { image:portfolio5 ,name:"STARBUCKS",message:"ident", link:'/starbucks' },
+    { image:portfolio2 ,name:"STARBUCKS",message:"ident", link:'/starbucks'},
+    { image:portfolio4 ,name:"STARBUCKS",message:"ident", link:'/starbucks'},
     { image:portfolio6 ,name:"Anglerfish",message:"doodle", link:'/anglerfish' },
-    { image:portfolio8 ,name:"Zootopia",message:"Title Sequence", link:'/title' },
-    { image:portfolio9 ,name:"Untitle",message:"illustration to life", link:'/life' },
+    { image:portfolio8 ,name:"Zootopia",message:"title sequence", link:'/title' },
+    { image:portfolio9 ,name:"Untitle",message:"still to life", link:'/life' },
     { image:portfolio7 ,name:"Suckway",message:"2D animation", link:'/suckway' }
     
 
