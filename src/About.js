@@ -4,10 +4,13 @@ import './App.css';
 import Footer from './Footer';
 import profile from './img/profile.gif';
 import logo from './img/logo.png';
-
+import background from './img/line.svg';
 function About() {
   return (
     <div >
+      <div>
+      <img className="bg" src={background} alt="bg" />
+      </div>
       <div>
       <img className="logo" src={logo} alt="logo" />
       </div>

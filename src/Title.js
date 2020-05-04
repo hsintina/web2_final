@@ -8,11 +8,15 @@ import styleframe3 from './img/pic803.jpg';
 import styleframe4 from './img/pic804.jpg';
 import Footer from './Footer';
 import{ Link } from 'react-router-dom';
+import background from './img/line.svg';
 
 
 function Title() {
   return (
     <div>
+      <div>
+      <img className="bg" src={background} alt="bg" />
+      </div>
       <div>
       <img className="logoo" src={logo} alt="logo" />
       </div>

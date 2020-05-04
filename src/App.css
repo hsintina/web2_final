@@ -76,6 +76,11 @@ a:visited{
 .back:hover{
   color:#eeeeee;
 }
+.bg{
+  position:absolute;
+  top:-25vh;
+  left:0vw;
+}
 .logo{
   position:absolute;
   top:5vh;

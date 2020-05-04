@@ -8,11 +8,15 @@ import styleframe5 from './img/pic905.jpg';
 import logo from './img/logo.png';
 import Footer from './Footer';
 import{ Link } from 'react-router-dom';
+import background from './img/line.svg';
 
 
 function Life() {
   return (
     <div>
+      <div>
+      <img className="bg" src={background} alt="bg" />
+      </div>
        <Nav />
        <div>
       <img className="logoo" src={logo} alt="logo" />

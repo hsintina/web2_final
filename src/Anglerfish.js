@@ -5,7 +5,7 @@ import styleframe1 from './img/fish1280.gif'
 import styleframe2 from './img/sketch.gif'
 import Nav from './Nav';
 import './App.css';
-
+import background from './img/line.svg';
 
 function Anglerfish() {
   const [users, setUsers] = useState([
@@ -14,6 +14,9 @@ function Anglerfish() {
   ]);
   return (
     <div className="app">
+      <div>
+      <img className="bg" src={background} alt="bg" />
+      </div>
       <div>
       <img className="logoo" src={logo} alt="logo" />
       </div>

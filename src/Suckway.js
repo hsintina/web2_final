@@ -13,15 +13,19 @@ import styleframe9 from './img/pic909.jpg';
 import Footer from './Footer';
 import logo from './img/logo.png';
 import{ Link } from 'react-router-dom';
-
+import background from './img/line.svg';
 
 function Suckway() {
   return (
     <div>
       <div>
+      <div>
+      <img className="bg" src={background} alt="bg" />
+      </div>
       <img className="logoo" src={logo} alt="logo" />
       </div>
        <Nav />
+       
        <div className="section1">
          <div className="wording">
             <div className="worktitle">

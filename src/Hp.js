@@ -2,9 +2,13 @@ import React, {useState} from 'react';
 import Nav from './Nav';
 import Footer from './Footer';
 import logo from './img/logo.png';
+import background from './img/line.svg';
 function Hp(){
     return(
     <div className="app">
+        <div>
+      <img className="bg" src={background} alt="bg" />
+      </div>
     <div>
       <img className="logo" src={logo} alt="logo" />
       </div>

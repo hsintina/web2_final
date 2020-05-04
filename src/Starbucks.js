@@ -9,12 +9,15 @@ import styleframe4 from './img/starbucks4.jpg';
 import logo from './img/logo.png';
 import Footer from './Footer';
 import{ Link } from 'react-router-dom';
-
+import background from './img/line.svg';
 
 function Starbucks() {
 
   return (
     <div className="app">
+      <div>
+      <img className="bg" src={background} alt="bg" />
+      </div>
       <div>
       <img className="logoo" src={logo} alt="logo" />
       </div>
