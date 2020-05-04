@@ -21,6 +21,8 @@ function Footer() {
            <a target="_blank" href="https://www.linkedin.com/in/hsintingting">
            <img className="icon" src={icon4} alt="linkedin/hsintingting"  /> 
            </a>
+
+       
            
            
 

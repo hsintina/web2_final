@@ -14,6 +14,9 @@ function Anglerfish() {
   ]);
   return (
     <div className="app">
+      <div>
+      <img className="logoo" src={logo} alt="logo" />
+      </div>
       <Nav />
       <div className="content">
       {users.map(user => (

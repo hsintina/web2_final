@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Footer from './Footer';
+import{ Link } from 'react-router-dom';
 
 function Gif({title,subtitle,picture1,picture2}) {
   return (
@@ -14,6 +15,9 @@ function Gif({title,subtitle,picture1,picture2}) {
           <div className="visual">
             <img className="styleframe" src={picture1} alt="picture1" />
             <img className="styleframe" src={picture2} alt="picture2" />
+            <div >
+       <Link className="back" to='/motion'>Back to Gallery</Link>
+        </div>
             <div><Footer/></div>
           </div>
      </div>

@@ -10,7 +10,7 @@ import styleframe6 from './img/pic906.gif';
 import styleframe7 from './img/pic907.gif';
 import Footer from './Footer';
 import logo from './img/logo.png';
-
+import{ Link } from 'react-router-dom';
 
 
 function Suckway() {
@@ -46,6 +46,9 @@ function Suckway() {
               <img className="styleframe" src={styleframe3} alt="picture3" />
               <img className="styleframe" src={styleframe4} alt="picture4" />
               <img className="styleframe" src={styleframe5} alt="picture5" />
+              <div >
+                <Link className="back" to='/motion'>Back to Gallery</Link>
+              </div>
               <div><Footer/></div>
             </div>
           </div>

@@ -7,7 +7,7 @@ import styleframe2 from './img/pic802.jpg';
 import styleframe3 from './img/pic803.jpg';
 import styleframe4 from './img/pic804.jpg';
 import Footer from './Footer';
-
+import{ Link } from 'react-router-dom';
 
 
 function Title() {
@@ -42,6 +42,9 @@ function Title() {
             <img className="styleframe" src={styleframe2} alt="picture2" />
             <img className="styleframe" src={styleframe3} alt="picture3" />
             <img className="styleframe" src={styleframe4} alt="picture4" />
+            <div >
+                <Link className="back" to='/motion'>Back to Gallery</Link>
+              </div>
             <div><Footer/></div>
             </div>
           </div>

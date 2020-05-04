@@ -6,7 +6,7 @@ import styleframe2 from './img/pic902.jpg';
 import styleframe3 from './img/pic903.jpg';
 import logo from './img/logo.png';
 import Footer from './Footer';
-
+import{ Link } from 'react-router-dom';
 
 
 function Life() {
@@ -46,6 +46,9 @@ function Life() {
             <img className="styleframe" src={styleframe1} alt="picture1" />
             <img className="styleframe" src={styleframe2} alt="picture2" />
             <img className="styleframe" src={styleframe3} alt="picture3" />
+            <div >
+              <Link className="back" to='/motion'>Back to Gallery</Link>
+            </div>  
             <div><Footer/></div>
           </div>
           </div>

@@ -1,4 +1,4 @@
-import React from 'react';
+import React  from 'react';
 import Nav from './Nav';
 import './App.css';
 
@@ -8,16 +8,18 @@ import styleframe3 from './img/starbucks3.jpg';
 import styleframe4 from './img/starbucks4.jpg';
 import logo from './img/logo.png';
 import Footer from './Footer';
-
+import{ Link } from 'react-router-dom';
 
 
 function Starbucks() {
+
   return (
     <div className="app">
       <div>
       <img className="logoo" src={logo} alt="logo" />
       </div>
        <Nav />
+       
       <div className="section1">
         <div className="wording">
             <div className="worktitle">
@@ -27,6 +29,7 @@ function Starbucks() {
               <br/>
               <p>A Starbucks branding video for its globalization, featuring famous landmarks all over five continents.</p>
               <h2 className="subtitle"> Styleframes</h2>
+              
             </div>
           </div>
         <div className="visual">
@@ -41,13 +44,18 @@ function Starbucks() {
             <img className="styleframe" src={styleframe2} alt="picture2" />
             <img className="styleframe" src={styleframe3} alt="picture3" />
             <img className="styleframe" src={styleframe4} alt="picture4" />
+            <div >
+       <Link className="back" to='/motion'>Back to Gallery</Link>
+        </div>
             <div><Footer/></div>
           </div>
           
         </div>
        
       </div>
-     
+      
+ 
+
     </div>
     
   );
