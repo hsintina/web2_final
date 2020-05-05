@@ -320,6 +320,8 @@ justify-content:space-evenly;
 .copy{
   font-size: 0.5em;
   margin-bottom:1vh;
+  position: relative;
+  left:1vw;
 }
 .copyright{
   position:relative;
@@ -334,7 +336,7 @@ justify-content:space-evenly;
   justify-content:flex-end;
   z-index:1;
   margin-top:1vh;
-  margin-right:42.5vw;
+  margin-right:41vw;
   margin-bottom:1vh;
   /* background-color: aqua; */
 }
