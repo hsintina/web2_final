@@ -70,7 +70,7 @@ a:visited{
 
 .back{
   position:relative;
-  left:20vw;
+  right:22.5vw;
   top:1vh;
   font-size:10px;
   letter-spacing: 0.35pt;
@@ -222,7 +222,7 @@ color:white;
   text-align: left;
   margin-left: 10vw;
   /* margin-top:30vh; */
-  font-size: 15px;
+  font-size: 14px;
   /* border: solid 2px; */
   padding:5vw;
   color:#4d3e3e;
@@ -254,7 +254,7 @@ justify-content:space-evenly;
   width:40vw;
   height:100vh;
   position: fixed;
-  right:0vw;
+  right:-5.5vw;
   padding:1vw;
   /* background-color: red; */
 }
@@ -307,7 +307,7 @@ justify-content:space-evenly;
   position:absolute;
   display:flex;
   justify-content:flex-end;
-  width:100%;
+  width:95%;
   height:80%;
 
 }

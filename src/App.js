@@ -14,7 +14,9 @@ import Title from './Title.js';
 import Suckway from './Suckway.js';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import { setDefaultBreakpoints } from 'react-socks';
- 
+import  {BreakpointProvider } from 'react-socks';
+
+
 setDefaultBreakpoints([
   { xs: 0 },
   { s: 376 },
@@ -25,9 +27,10 @@ setDefaultBreakpoints([
 
 
 function App() {
-  
+
 
   return (
+    <BreakpointProvider>
     <Router>
     <ScrollToTop />
     <div className="App">
@@ -45,6 +48,7 @@ function App() {
       </Switch>
     </div>
     </Router>
+    </BreakpointProvider>
     
   );
 }

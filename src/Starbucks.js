@@ -10,7 +10,7 @@ import logo from './img/logo.png';
 import Footer from './Footer';
 import{ Link } from 'react-router-dom';
 import background from './img/line.svg';
-
+import  { Breakpoint} from 'react-socks';
 
 function Starbucks() {
 
@@ -25,6 +25,7 @@ function Starbucks() {
        <Nav />
        
       <div className="section1">
+        <Breakpoint large up>
         <div className="wording">
             <div className="worktitle">
               <h1 className="projectName">Starbucks</h1>
@@ -36,6 +37,7 @@ function Starbucks() {
               
             </div>
           </div>
+          </Breakpoint>
         <div className="visual">
           <div className="playerr">
             <iframe className="videor" src="https://player.vimeo.com/video/411989157?color=ffffff&title=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen>
