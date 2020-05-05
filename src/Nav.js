@@ -14,7 +14,7 @@ function Nav() {
     
        <ul className="nav-link">
            <Link style={navStyle} to='/'>
-           <li className="menu"><span>Home</span></li>
+           <li className="menu"><span>Reel</span></li>
            </Link>
            <Link style={navStyle} to='/about'>
            <li className="menu"><span>About</span></li>

@@ -21,7 +21,9 @@ html,body{
   /* letter-spacing: 1px; */
   line-height: 2em;
   font-size: 10pt;
+  
 }
+
 .App {
   text-align: center;
   min-height:100%;
@@ -325,22 +327,22 @@ justify-content:space-evenly;
   font-size: 0.5em;
   margin-bottom:1vh;
   position: relative;
-  left:1vw;
+  /* left:1vw; */
 }
 .copyright{
   position:relative;
   font-size: 0.5em;
   margin-bottom:1vh;
-  right:20vw;
+  /* right:20vw; */
 }
 .footer{
   position: relative;
   /* bottom: -50px; */
   display:flex;
-  justify-content:flex-end;
+  justify-content:center;
   z-index:1;
   margin-top:1vh;
-  margin-right:41vw;
+  /* margin-left:2vw; */
   margin-bottom:1vh;
   /* background-color: aqua; */
 }
