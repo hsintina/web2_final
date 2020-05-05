@@ -31,6 +31,8 @@ function Title() {
               <p>Re-producing the title sequence of Zootopia into 2D style.</p>
               <br/>
               <br/>
+              <br/>
+              <br/>
               <h2 className="subtitle"> Styleframes</h2>
             </div>
           </div>
@@ -50,6 +52,7 @@ function Title() {
                 <Link className="back" to='/motion'>⟵ Back to Gallery</Link>
               </div>
             <div><Footer/></div>
+            <div className="copyright">© Hsin Ting Lin 2020 </div>
             </div>
           </div>
 

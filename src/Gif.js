@@ -19,6 +19,7 @@ function Gif({title,subtitle,picture1,picture2}) {
        <Link className="back" to='/motion'>⟵ Back to Gallery</Link>
         </div>
             <div><Footer/></div>
+            <div className="copyright">© Hsin Ting Lin 2020 </div>
           </div>
      </div>
   );

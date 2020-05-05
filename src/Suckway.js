@@ -34,7 +34,7 @@ function Suckway() {
               <hr/>
               <br/>
               <p>A cel-animation illustrating the story of commuters.</p>
-              <br/><br/>
+              <br/><br/><br/><br/>
               <h2 className="subtitle"> Styleframes</h2>
             </div>
           </div>
@@ -58,6 +58,7 @@ function Suckway() {
                 <Link className="back" to='/motion'>⟵ Back to Gallery</Link>
               </div>
               <div><Footer/></div>
+              <div className="copyright">© Hsin Ting Lin 2020 </div>
             </div>
           </div>
      </div>

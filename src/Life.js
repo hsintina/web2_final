@@ -31,6 +31,7 @@ function Life() {
               <p>Animated from the illustration work of <a target="_blank" href="https://www.malikafavre.com/">Malika Favre</a></p>
               <br/>
               <br/>
+              <br/>
             <h2 className="subtitle" > Styleframes </h2>
               
               
@@ -56,6 +57,7 @@ function Life() {
               <Link className="back" to='/motion'>⟵ Back to Gallery</Link>
             </div>  
             <div><Footer/></div>
+            <div className="copyright">© Hsin Ting Lin 2020 </div>
           </div>
           </div>
     

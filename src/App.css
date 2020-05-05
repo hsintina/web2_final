@@ -80,17 +80,18 @@ a:visited{
   position:absolute;
   top:-25vh;
   left:0vw;
+  opacity:75%;
 }
 .logo{
   position:absolute;
-  top:5vh;
+  top:3.5vh;
   width:12vw;
 }
 .logoo{
   position:absolute;
-  top:5vh;
-  width:10vw;
-  margin-left:20vw;
+  top:8vh;
+  width:7.5vw;
+  margin-left:10vw;
 }
 .content{
   /* height:100 vh; */
@@ -127,9 +128,13 @@ nav{
 .nav-link{
   width: 40%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   list-style-type: none;
+  
+}
+.menu{
+  padding:2.5vw;
 }
 span {
   position: relative;
@@ -224,15 +229,16 @@ color:white;
   color:#555555;
 }
 .projectName{
+  font-size:1.5em;
   font-weight: 500;
 }
 
 .worktitle p{
-  font-size: 15px;
+  font-size: 0.9em;
 }
 .subtitle{
   position: relative;
-  top:5vh;
+  top:12.5vh;
   font-weight: 200;
   font-size:20px;
 }
@@ -263,10 +269,11 @@ justify-content:space-evenly;
 }
 .reelr{
   position:absolute;
-  top:-15px;
+  top:15px;
   width:70%;
   height:70%;
 }
+
 .player{
   padding:56.25% 0 0 0;
   position:relative;
@@ -291,15 +298,16 @@ justify-content:space-evenly;
   position:absolute;
   display:flex;
   justify-content:flex-end;
-  width:50%;
-  height:50%;
-  margin-bottom:80px;
+  width:60%;
+  height:60%;
+
 }
 .styleframes{
   position:relative;
   display:flex;
   flex-direction:column;
-  top:55vh;
+  top:60vh;
+  left:5vw;
 }
 .styleframe{
   position:relative;
@@ -309,16 +317,25 @@ justify-content:space-evenly;
   padding:10px;
   /* margin-top: 5vh; */
 }
-
+.copy{
+  font-size: 0.5em;
+  margin-bottom:1vh;
+}
+.copyright{
+  position:relative;
+  font-size: 0.5em;
+  margin-bottom:1vh;
+  right:20vw;
+}
 .footer{
   position: relative;
   /* bottom: -50px; */
   display:flex;
   justify-content:flex-end;
   z-index:1;
-  margin-top:5vh;
+  margin-top:1vh;
   margin-right:42.5vw;
-  margin-bottom:2vh;
+  margin-bottom:1vh;
   /* background-color: aqua; */
 }
 .footers{
@@ -328,12 +345,12 @@ justify-content:space-evenly;
   justify-content:flex-end;
   z-index:1;
   margin-top:55vh;
-  margin-right:42.5vw;
+  margin-right:40vw;
   margin-bottom:2vh;
   /* background-color: aqua; */
 }
 
 .icon{
   padding:15px;
-  width:15px;
+  width:20px;
 }

@@ -14,13 +14,13 @@ function Nav() {
     
        <ul className="nav-link">
            <Link style={navStyle} to='/'>
-           <li><span>Home</span></li>
+           <li className="menu"><span>Home</span></li>
            </Link>
            <Link style={navStyle} to='/about'>
-           <li><span>About</span></li>
+           <li className="menu"><span>About</span></li>
            </Link>
            <Link style={navStyle} to='/motion'>
-           <li><span>Motion</span></li>
+           <li className="menu"><span>Motion</span></li>
            </Link>
 
 

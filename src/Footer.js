@@ -8,8 +8,8 @@ import icon4 from './img/iconlinkedin.png';
 
 function Footer() {
     return(
-        <div className="footer">
-          
+        <div>
+          <div className="footer">
             <a target="_blank" href="https://www.vimeo.com/hsintingting">
            <img className="icon" src={icon1} alt="vimeo/hsintingting"  /> 
            </a>
@@ -22,7 +22,8 @@ function Footer() {
            <a target="_blank" href="https://www.linkedin.com/in/hsintingting">
            <img className="icon" src={icon4} alt="linkedin/hsintingting"  /> 
            </a>
-
+           </div>
+           
        
            
            

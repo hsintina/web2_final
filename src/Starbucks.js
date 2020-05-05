@@ -31,6 +31,7 @@ function Starbucks() {
               <hr/>
               <br/>
               <p>A Starbucks branding video for its globalization, featuring famous landmarks all over five continents.</p>
+              <br/><br/><br/>
               <h2 className="subtitle"> Styleframes</h2>
               
             </div>
@@ -51,6 +52,7 @@ function Starbucks() {
        <Link className="back" to='/motion'>⟵ Back to Gallery</Link>
         </div>
             <div><Footer/></div>
+            <div className="copyright">© Hsin Ting Lin 2020 </div>
           </div>
           
         </div>
