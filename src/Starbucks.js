@@ -11,6 +11,7 @@ import Footer from './Footer';
 import{ Link } from 'react-router-dom';
 import background from './img/line.svg';
 
+
 function Starbucks() {
 
   return (
@@ -31,8 +32,7 @@ function Starbucks() {
               <hr/>
               <br/>
               <p>A Starbucks branding video for its globalization, featuring famous landmarks all over five continents.</p>
-              <br/><br/><br/>
-              <h2 className="subtitle"> Styleframes</h2>
+ 
               
             </div>
           </div>

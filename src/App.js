@@ -13,7 +13,15 @@ import Life from './Life.js';
 import Title from './Title.js';
 import Suckway from './Suckway.js';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-
+import { setDefaultBreakpoints } from 'react-socks';
+ 
+setDefaultBreakpoints([
+  { xs: 0 },
+  { s: 376 },
+  { m: 426 },
+  { l: 769 },
+  { xl: 1025 }
+]);
 
 
 function App() {
