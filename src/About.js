@@ -4,7 +4,7 @@ import './App.css';
 import Footer from './Footer';
 import profile from './img/profile.gif';
 import logo from './img/logo.png';
-import background from './img/line.svg';
+import background from './img/line.png';
 function About() {
   return (
     <div >

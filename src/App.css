@@ -1,7 +1,8 @@
 *{
   /* border: 2px solid; */
-  font-family:  "merriweather", "Baskerville", serif;
+  font-family:  "merriweather", "Roboto Condensed", serif;
 }
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300);
 html,body{
   height:100vh;
   min-width:100vw;
@@ -67,7 +68,7 @@ a:visited{
 
 .back{
   position:relative;
-  left:14vw;
+  left:20vw;
   top:1vh;
   font-size:10px;
   letter-spacing: 0.35pt;
@@ -250,6 +251,9 @@ justify-content:space-evenly;
 .wording{
   width:40vw;
   height:100vh;
+  position: fixed;
+  right:-6.5vw;
+  padding:1vw;
   /* background-color: red; */
 }
 .visual{
@@ -307,13 +311,13 @@ justify-content:space-evenly;
   display:flex;
   flex-direction:column;
   top:60vh;
-  left:5vw;
+  /* left:5vw; */
 }
 .styleframe{
   position:relative;
   display:flex;
   justify-content: flex-end;
-  width: 80%;
+  width: 90%;
   padding:10px;
   /* margin-top: 5vh; */
 }
