@@ -14,6 +14,7 @@ import Footer from './Footer';
 import logo from './img/logo.png';
 import{ Link } from 'react-router-dom';
 import background from './img/line.svg';
+import { css, cx } from 'emotion';
 
 function Suckway() {
   return (
@@ -27,6 +28,11 @@ function Suckway() {
        <Nav />
        
        <div className="section1">
+       <div className={css`
+    @media (max-width: 768px) {
+      display: none;
+    }
+  `}>
          <div className="wording">
             <div className="worktitle">
               <h1 className="projectName">Suckway</h1>
@@ -34,9 +40,9 @@ function Suckway() {
               <hr/>
               <br/>
               <p>A cel-animation illustrating the story of commuters.</p>
-              <br/><br/><br/><br/>
-              <h2 className="subtitle"> Styleframes</h2>
+
             </div>
+          </div>
           </div>
           <div className="visual">
           <div className="playerr">

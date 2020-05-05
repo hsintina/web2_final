@@ -10,7 +10,7 @@ import logo from './img/logo.png';
 import Footer from './Footer';
 import{ Link } from 'react-router-dom';
 import background from './img/line.svg';
-import  { Breakpoint} from 'react-socks';
+import { css, cx } from 'emotion';
 
 function Starbucks() {
 
@@ -25,8 +25,12 @@ function Starbucks() {
        <Nav />
        
       <div className="section1">
-        <Breakpoint large up>
-        <div className="wording">
+        <div className={css`
+    @media (max-width: 768px) {
+      display: none;
+    }
+  `}>
+      <div className="wording">
             <div className="worktitle">
               <h1 className="projectName">Starbucks</h1>
               <p>Global Branding Promotion</p>
@@ -37,7 +41,7 @@ function Starbucks() {
               
             </div>
           </div>
-          </Breakpoint>
+          </div>
         <div className="visual">
           <div className="playerr">
             <iframe className="videor" src="https://player.vimeo.com/video/411989157?color=ffffff&title=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen>
@@ -45,6 +49,7 @@ function Starbucks() {
           </div>
           <script src="https://player.vimeo.com/api/player.js"></script>
             {/* <iframe className="video" src="https://player.vimeo.com/video/411989157?title=0"   frameborder="0" allow="autoplay fullscreen" allowFullScreen></iframe> */}
+           
           <div className="styleframes">
             <img className="styleframe" src={styleframe1} alt="picture1" />
             <img className="styleframe" src={styleframe2} alt="picture2" />

@@ -9,6 +9,7 @@ import logo from './img/logo.png';
 import Footer from './Footer';
 import{ Link } from 'react-router-dom';
 import background from './img/line.svg';
+import { css, cx } from 'emotion';
 
 
 function Life() {
@@ -22,6 +23,11 @@ function Life() {
       <img className="logoo" src={logo} alt="logo" />
       </div>
        <div className="section1">
+       <div className={css`
+    @media (max-width: 768px) {
+      display: none;
+    }
+  `}>
          <div className="wording">
             <div className="worktitle">
               <h1 className="projectName">Still</h1>
@@ -29,13 +35,11 @@ function Life() {
               <hr/>
               <br/>
               <p>Animated from the illustration work of <a target="_blank" href="https://www.malikafavre.com/">Malika Favre</a></p>
-              <br/>
-              <br/>
-              <br/>
-            <h2 className="subtitle" > Styleframes </h2>
+
               
               
             </div>
+          </div>
           </div>
           {/* <div className="visual">
           <iframe className="video" src="https://player.vimeo.com/video/396163601?color=ffffff&title=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
