@@ -350,14 +350,14 @@ justify-content:space-evenly;
   position:relative;
   display:flex;
   flex-direction:column;
-  top:50px;
+  top:100px;
   /* left:5vw; */
 }
 .styleframe{
   position:relative;
   display:flex;
   justify-content: flex-end;
-  width: 80%;
+  width: 55vw;;
   padding:10px;
   /* margin-top: 5vh; */
 }

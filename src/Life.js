@@ -24,7 +24,7 @@ function Life() {
       </div>
        <div className="section1">
        <div className={css`
-    @media (max-width: 768px) {
+    @media (max-width: 1000px) {
       display: none;
     }
   `}>
@@ -53,7 +53,7 @@ function Life() {
           </div>
           <script src="https://player.vimeo.com/api/player.js"></script> */}
           <div className={css`
-    @media (min-width: 768px) {
+    @media (min-width: 1000px) {
       display: none;
     }
   `}>

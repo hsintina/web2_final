@@ -24,7 +24,7 @@ function Title() {
        <Nav />
        <div className="section1">
        <div className={css`
-    @media (max-width: 768px) {
+    @media (max-width: 1000px) {
       display: none;
     }
   `}>
@@ -48,7 +48,7 @@ function Title() {
           <script src="https://player.vimeo.com/api/player.js"></script> */}
             <iframe className="video" src="https://player.vimeo.com/video/414278732?title=0"   frameborder="0" allow="autoplay fullscreen" allowFullScreen></iframe>
             <div className={css`
-    @media (min-width: 768px) {
+    @media (min-width: 1000px) {
       display: none;
     }
   `}>  
