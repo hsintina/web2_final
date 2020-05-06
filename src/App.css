@@ -225,7 +225,7 @@ color:white;
   /* border: solid 2px; */
   padding:8vw;
   color:#4d3e3e;
-  top:45vh;
+  top:350px;
   position:relative;
   z-index:-1;
 
@@ -244,11 +244,6 @@ color:white;
 
 .worktitles p{
   font-size: 0.9em;
-}
-.worktitles hr{
-  width:10%;
-  text-align: left;
-  margin-left:0;
 }
 
 .worktitle{ 
@@ -271,6 +266,11 @@ color:white;
 
 .worktitle p{
   font-size: 0.9em;
+}
+.worktitle hr{
+  width:10%;
+  text-align: left;
+  margin-left:0;
 }
 .subtitle{
   position: relative;
@@ -348,7 +348,7 @@ justify-content:space-evenly;
   position:relative;
   display:flex;
   flex-direction:column;
-  top:250px;
+  top:450px;
   /* left:5vw; */
 }
 .styleframe{

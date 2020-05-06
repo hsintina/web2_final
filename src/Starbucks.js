@@ -49,23 +49,36 @@ function Starbucks() {
           </div>
           <script src="https://player.vimeo.com/api/player.js"></script>
             {/* <iframe className="video" src="https://player.vimeo.com/video/411989157?title=0"   frameborder="0" allow="autoplay fullscreen" allowFullScreen></iframe> */}
-          
+            <div className={css`
+    @media (min-width: 768px) {
+      display: none;
+    }
+  `}>
             <div className="worktitles">
               <p><strong>STARBUCKS</strong> Global Branding Promotion</p>
               <hr/>
               <br/>
               </div>
-              
+              </div>
+              <div className={css`
+    @media (max-width: 768px) {
+      display: none;
+    }
+  `}>    
           <div className="styleframes">
             <img className="styleframe" src={styleframe1} alt="picture1" />
             <img className="styleframe" src={styleframe2} alt="picture2" />
             <img className="styleframe" src={styleframe3} alt="picture3" />
             <img className="styleframe" src={styleframe4} alt="picture4" />
-            <div >
+            <div>
        <Link className="back" to='/motion'>⟵ Back to Gallery</Link>
         </div>
-            <div><Footer/></div>
-            <div className="copyright">© Hsin Ting Lin 2020 </div>
+        <div><Footer/></div>
+        <div className="copyright">© Hsin Ting Lin 2020 </div>
+            </div >
+              
+            
+            
           </div>
           
         </div>
