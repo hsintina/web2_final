@@ -35,8 +35,17 @@ function Title() {
               <hr/>
               <br/>
               <p>Re-producing the title sequence of Zootopia into 2D style.</p>
-
-
+              <div className={css`
+    @media (min-width: 768px) {
+      display: none;
+    }
+  `}>
+              <div>
+       <Link className="backs" to='/motion'>⟵ Back to Gallery</Link>
+        </div>
+        <div><Footer/></div>
+        <div className="copyrights">© Hsin Ting Lin 2020 </div>
+</div>
             </div>
           </div>
           </div>
@@ -58,7 +67,18 @@ function Title() {
               <hr/>
               <br/>
               <p>Re-producing the title sequence of Zootopia into 2D style.</p>
-
+              <div className={css`
+    @media (min-width: 768px) {
+      display: none;
+    }
+  `}>
+              <div>
+       <Link className="backs" to='/motion'>⟵ Back to Gallery</Link>
+        </div>
+        <div className="icons"><Footer/></div>
+        <div className="copyrights">© Hsin Ting Lin 2020 </div>
+            </div>
+            
 
             </div>
               </div>

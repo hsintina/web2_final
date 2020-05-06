@@ -60,8 +60,17 @@ function Starbucks() {
               <hr/>
               <br/>
               <p>A Starbucks branding video for its globalization, featuring famous landmarks all over five continents.</p>
- 
-              
+              <div className={css`
+    @media (min-width: 768px) {
+      display: none;
+    }
+  `}>
+              <div>
+       <Link className="backs" to='/motion'>⟵ Back to Gallery</Link>
+        </div>
+        <div className="icons"><Footer/></div>
+        <div className="copyrights">© Hsin Ting Lin 2020 </div>
+              </div>
             </div>
               </div>
               <div className={css`
@@ -77,7 +86,7 @@ function Starbucks() {
             <div>
        <Link className="back" to='/motion'>⟵ Back to Gallery</Link>
         </div>
-        <div><Footer/></div>
+        <div className="icons"><Footer/></div>
         <div className="copyright">© Hsin Ting Lin 2020 </div>
             </div >
               

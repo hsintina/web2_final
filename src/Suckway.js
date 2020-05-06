@@ -63,7 +63,17 @@ function Suckway() {
               <hr/>
               <br/>
               <p>A cel-animation illustrating the story of commuters.</p>
-
+              <div className={css`
+    @media (min-width: 768px) {
+      display: none;
+    }
+  `}>
+              <div>
+       <Link className="backs" to='/motion'>⟵ Back to Gallery</Link>
+        </div>
+        <div className="icons"><Footer/></div>
+        <div className="copyrights">© Hsin Ting Lin 2020 </div>
+            </div>
             </div>
               </div>
               <div className={css`

@@ -63,8 +63,17 @@ function Life() {
               <hr/>
               <br/>
               <p>Animated from the illustration work of <a target="_blank" href="https://www.malikafavre.com/">Malika Favre</a></p>
-
-              
+              <div className={css`
+    @media (min-width: 768px) {
+      display: none;
+    }
+  `}>
+              <div>
+       <Link className="backs" to='/motion'>⟵ Back to Gallery</Link>
+        </div>
+        <div className="icons"><Footer/></div>
+        <div className="copyrights">© Hsin Ting Lin 2020 </div>
+        </div>
               
             </div>
               </div>
