@@ -16,7 +16,9 @@ function Gallery({image,name,message,link}){
             </div>
             </div>
             <Link to={link}>
+              <div className="grid">
             <img className="pic" src={image} alt=' portfolio pic' />
+            </div>
             </Link>
         </div>
     );

@@ -179,15 +179,21 @@ span:hover:after {
   position: relative;
   width:32.5vw;
   transition:1s;
-  top:-20vw;
+  /* top:-20vw; */
 
 }
 
 .pic:hover{
-  opacity:30%;
+  opacity:0;
   
 }
-
+.grid{
+  background-color: rgba(244,244,244,0);
+  
+}
+.grid:hover{
+  background-color:rgb(142, 198, 197,0.5);
+}
 .gallery{
   position:relative;
   display:flex;
@@ -195,7 +201,7 @@ span:hover:after {
   justify-content: space-around;
   margin:0px;
   height:33vw;
-  top:10vw;
+  top:-10vw;
   
 }
 .gallery:hover .info{
@@ -210,6 +216,7 @@ justify-content: center;
 text-align:center;
 align-items:center;
 color:white;
+top:20vw;
 
 }
 .worktitles hr{

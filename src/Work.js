@@ -18,14 +18,14 @@ import './App.css';
 function Work() {
   const [users, setUsers] = useState([
     { image:portfolio1 ,name:"STARBUCKS", message:"ident", link:'/starbucks' },
-    { image:portfolio3 ,name:"STARBUCKS", message:"ident", link:'/starbucks' },
+    { image:portfolio3 ,name:"STARBUCKS", message:"ident", link:'/starbucks'},
     { image:portfolio5 ,name:"STARBUCKS",message:"ident", link:'/starbucks' },
     { image:portfolio2 ,name:"STARBUCKS",message:"ident", link:'/starbucks'},
     { image:portfolio4 ,name:"STARBUCKS",message:"ident", link:'/starbucks'},
-    { image:portfolio6 ,name:"Anglerfish",message:"doodle", link:'/anglerfish' },
+    { image:portfolio6 ,name:"Anglerfish",message:"doodle", link:'/anglerfish'},
     { image:portfolio9 ,name:"Zootopia",message:"title seq.", link:'/title' },
     { image:portfolio8 ,name:"Still",message:"to life", link:'/life' },
-    { image:portfolio7 ,name:"Suckway",message:"2D anime", link:'/suckway' }
+    { image:portfolio7 ,name:"Suckway",message:"2D anime", link:'/suckway'}
     
 
   ]);
@@ -41,7 +41,7 @@ function Work() {
       <Nav />
       <div className="content">
       {users.map(user => (
-        <Gallery image={user.image} name={user.name} message={user.message} link={user.link}/>
+        <Gallery image={user.image} name={user.name} message={user.message} link={user.link} />
       ))}
     </div>
     <div><Footer /></div>
