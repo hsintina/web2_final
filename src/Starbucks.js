@@ -54,11 +54,15 @@ function Starbucks() {
       display: none;
     }
   `}>
-            <div className="worktitles">
-              <p><strong>STARBUCKS</strong> Global Branding Promotion</p>
+            <div className="worktitle">
+              <h1 className="projectName">Starbucks</h1>
+              <p>Global Branding Promotion</p>
               <hr/>
               <br/>
-              </div>
+              <p>A Starbucks branding video for its globalization, featuring famous landmarks all over five continents.</p>
+ 
+              
+            </div>
               </div>
               <div className={css`
     @media (max-width: 768px) {

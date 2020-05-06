@@ -52,11 +52,15 @@ function Title() {
       display: none;
     }
   `}>  
-            <div className="worktitles">
-              <p><strong>Zootopia</strong> Title Sequence</p>
+             <div className="worktitle">
+              <h1 className="projectName">Zootopia</h1>
+              <p>Title Sequence</p>
               <hr/>
               <br/>
-              </div>
+              <p>Re-producing the title sequence of Zootopia into 2D style.</p>
+
+
+            </div>
               </div>
               <div className={css`
     @media (max-width: 768px) {

@@ -29,7 +29,7 @@ function Suckway() {
        
        <div className="section1">
        <div className={css`
-    @media (max-width: 768px) {
+    @media (max-width: 1000px) {
       display: none;
     }
   `}>
@@ -57,14 +57,17 @@ function Suckway() {
       display: none;
     }
   `}>  
-            <div className="worktitles">
-              <p><strong>SUCKWAY</strong> Frame by frame</p>
+            <div className="worktitle">
+              <h1 className="projectName">Suckway</h1>
+              <p>Frame-by-frame animation</p>
               <hr/>
               <br/>
-              </div>
+              <p>A cel-animation illustrating the story of commuters.</p>
+
+            </div>
               </div>
               <div className={css`
-    @media (max-width: 1000px) {
+    @media (max-width: 768px) {
       display: none;
     }
   `}>  

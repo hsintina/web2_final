@@ -57,11 +57,16 @@ function Life() {
       display: none;
     }
   `}>
-          <div className="worktitles">
-              <p><strong>STILL</strong> to life</p>
+         <div className="worktitle">
+              <h1 className="projectName">Still</h1>
+              <p>to life</p>
               <hr/>
               <br/>
-              </div>
+              <p>Animated from the illustration work of <a target="_blank" href="https://www.malikafavre.com/">Malika Favre</a></p>
+
+              
+              
+            </div>
               </div>
               <div className={css`
     @media (max-width: 768px) {
