@@ -1,10 +1,10 @@
 import React , {useState} from 'react';
 import Gallery from './Portfolio';
-import portfolio1 from './img/pic01.gif';
-import portfolio2 from './img/pic02.gif';
-import portfolio3 from './img/pic003.gif';
-import portfolio4 from './img/pic4.gif';
-import portfolio5 from './img/pic05.gif';
+import portfolio1 from './img/pic1.jpg';
+import portfolio2 from './img/pic2.jpg';
+import portfolio3 from './img/pic3.jpg';
+import portfolio4 from './img/pic4.jpg';
+import portfolio5 from './img/pic5.jpg';
 import portfolio6 from './img/pic6.GIF';
 import portfolio7 from './img/pic7.gif';
 import portfolio8 from './img/pic9.gif';
