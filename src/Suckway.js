@@ -44,19 +44,30 @@ function Suckway() {
             </div>
           </div>
           </div>
-          <div className="visual">
-          <div className="playerr">
+          {/* <div className="visual"> */}
+          {/* <div className="playerr">
             <iframe className="videor" src="https://player.vimeo.com/video/412008860?color=ffffff&title=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen>
             </iframe>
           </div>
-          <script src="https://player.vimeo.com/api/player.js"></script>
-          {/* <div className="visual">
-            <iframe className="video" src="https://player.vimeo.com/video/412008860?title=0"   frameborder="0" allow="autoplay fullscreen" allowFullScreen></iframe> */}
+          <script src="https://player.vimeo.com/api/player.js"></script> */}
+          <div className="visual">
+            <iframe className="video" src="https://player.vimeo.com/video/412008860?title=0"   frameborder="0" allow="autoplay fullscreen" allowFullScreen></iframe>
+            <div className={css`
+    @media (min-width: 768px) {
+      display: none;
+    }
+  `}>  
             <div className="worktitles">
               <p><strong>SUCKWAY</strong> Frame by frame</p>
               <hr/>
               <br/>
               </div>
+              </div>
+              <div className={css`
+    @media (max-width: 768px) {
+      display: none;
+    }
+  `}>  
             <div className="styleframes">
               <img className="styleframe" src={styleframe8} alt="picture8" />
               <img className="styleframe" src={styleframe9} alt="picture9" />
@@ -70,6 +81,7 @@ function Suckway() {
               </div>
               <div><Footer/></div>
               <div className="copyright">© Hsin Ting Lin 2020 </div>
+            </div>
             </div>
           </div>
      </div>

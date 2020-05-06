@@ -225,7 +225,7 @@ color:white;
   /* border: solid 2px; */
   padding:8vw;
   color:#4d3e3e;
-  top:350px;
+  /* top:350px; */
   position:relative;
   z-index:-1;
 
@@ -297,8 +297,10 @@ justify-content:space-evenly;
   width:60vw;
   height:100vh;
   top:-50px;
-  display:flex;
+  /* display:flex;
   flex-direction: column;
+  justify-content: flex-start;
+  align-content: center; */
 }
 .reel{
   position:relative;
@@ -329,7 +331,7 @@ justify-content:space-evenly;
   justify-content: flex-end;
   width:640px;
   height:360px;
-  margin-bottom:80px;
+  /* margin-bottom:80px; */
 }
 .playerr{
   padding:0 0 0 0;
@@ -348,14 +350,14 @@ justify-content:space-evenly;
   position:relative;
   display:flex;
   flex-direction:column;
-  top:450px;
+  top:50px;
   /* left:5vw; */
 }
 .styleframe{
   position:relative;
   display:flex;
   justify-content: flex-end;
-  width: 90%;
+  width: 80%;
   padding:10px;
   /* margin-top: 5vh; */
 }

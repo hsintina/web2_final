@@ -41,22 +41,33 @@ function Life() {
             </div>
           </div>
           </div>
-          {/* <div className="visual">
+          <div className="visual">
           <iframe className="video" src="https://player.vimeo.com/video/396163601?color=ffffff&title=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-            <img className="styleframe" src={styleframe1} alt="picture1" />
+            {/* <img className="styleframe" src={styleframe1} alt="picture1" />
             <img className="styleframe" src={styleframe2} alt="picture2" />
             <img className="styleframe" src={styleframe3} alt="picture3" /> */}
-          <div className="visual">
+          {/* <div className="visual">
           <div className="playerr">
             <iframe className="videor" src="https://player.vimeo.com/video/396163601?color=ffffff&title=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen>
             </iframe>
           </div>
-          <script src="https://player.vimeo.com/api/player.js"></script>
+          <script src="https://player.vimeo.com/api/player.js"></script> */}
+          <div className={css`
+    @media (min-width: 768px) {
+      display: none;
+    }
+  `}>
           <div className="worktitles">
               <p><strong>STILL</strong> to life</p>
               <hr/>
               <br/>
               </div>
+              </div>
+              <div className={css`
+    @media (max-width: 768px) {
+      display: none;
+    }
+  `}>    
           <div className="styleframes">
             <img className="styleframe" src={styleframe5} alt="picture5" />
             <img className="styleframe" src={styleframe3} alt="picture3" />
@@ -70,6 +81,7 @@ function Life() {
           </div>
           </div>
     
+     </div>
      </div>
      </div>
   );

@@ -41,17 +41,28 @@ function Title() {
           </div>
           </div>
           <div className="visual">
-          <div className="playerr">
+          {/* <div className="playerr">
             <iframe className="videor" src="https://player.vimeo.com/video/414278732?color=ffffff&title=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen>
             </iframe>
           </div>
-          <script src="https://player.vimeo.com/api/player.js"></script>
-            {/* <iframe className="video" src="https://player.vimeo.com/video/414278732?title=0"   frameborder="0" allow="autoplay fullscreen" allowFullScreen></iframe> */}
+          <script src="https://player.vimeo.com/api/player.js"></script> */}
+            <iframe className="video" src="https://player.vimeo.com/video/414278732?title=0"   frameborder="0" allow="autoplay fullscreen" allowFullScreen></iframe>
+            <div className={css`
+    @media (min-width: 768px) {
+      display: none;
+    }
+  `}>  
             <div className="worktitles">
               <p><strong>Zootopia</strong> Title Sequence</p>
               <hr/>
               <br/>
               </div>
+              </div>
+              <div className={css`
+    @media (max-width: 768px) {
+      display: none;
+    }
+  `}>  
             <div className="styleframes">
             <img className="styleframe" src={styleframe1} alt="picture1" />
             <img className="styleframe" src={styleframe2} alt="picture2" />
@@ -62,6 +73,7 @@ function Title() {
               </div>
             <div><Footer/></div>
             <div className="copyright">© Hsin Ting Lin 2020 </div>
+            </div>
             </div>
           </div>
 
