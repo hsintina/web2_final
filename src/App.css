@@ -81,7 +81,7 @@ a:visited{
 }
 .bg{
   position:absolute;
-  top:20px;
+  top:5vh;
   left:0vw;
   opacity:75%;
 }
