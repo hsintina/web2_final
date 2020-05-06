@@ -47,6 +47,11 @@ function Title() {
           </div>
           <script src="https://player.vimeo.com/api/player.js"></script>
             {/* <iframe className="video" src="https://player.vimeo.com/video/414278732?title=0"   frameborder="0" allow="autoplay fullscreen" allowFullScreen></iframe> */}
+            <div className="worktitles">
+              <p><strong>Zootopia</strong> Title Sequence</p>
+              <hr/>
+              <br/>
+              </div>
             <div className="styleframes">
             <img className="styleframe" src={styleframe1} alt="picture1" />
             <img className="styleframe" src={styleframe2} alt="picture2" />

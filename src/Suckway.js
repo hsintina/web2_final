@@ -52,6 +52,11 @@ function Suckway() {
           <script src="https://player.vimeo.com/api/player.js"></script>
           {/* <div className="visual">
             <iframe className="video" src="https://player.vimeo.com/video/412008860?title=0"   frameborder="0" allow="autoplay fullscreen" allowFullScreen></iframe> */}
+            <div className="worktitles">
+              <p><strong>SUCKWAY</strong> Frame by frame</p>
+              <hr/>
+              <br/>
+              </div>
             <div className="styleframes">
               <img className="styleframe" src={styleframe8} alt="picture8" />
               <img className="styleframe" src={styleframe9} alt="picture9" />

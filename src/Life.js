@@ -52,6 +52,11 @@ function Life() {
             </iframe>
           </div>
           <script src="https://player.vimeo.com/api/player.js"></script>
+          <div className="worktitles">
+              <p><strong>STILL</strong> to life</p>
+              <hr/>
+              <br/>
+              </div>
           <div className="styleframes">
             <img className="styleframe" src={styleframe5} alt="picture5" />
             <img className="styleframe" src={styleframe3} alt="picture3" />
