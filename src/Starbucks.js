@@ -44,19 +44,18 @@ function Starbucks() {
           </div>
         <div className="visual">
           <div className="playerr">
-          <div className={css`
-    @media (max-width: 768px) {
-      width:100vw;
-      height:100%;
-    }
-  `}>
             <iframe className="videor" src="https://player.vimeo.com/video/411989157?color=ffffff&title=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen>
             </iframe>
           </div>
-          </div>
           <script src="https://player.vimeo.com/api/player.js"></script>
             {/* <iframe className="video" src="https://player.vimeo.com/video/411989157?title=0"   frameborder="0" allow="autoplay fullscreen" allowFullScreen></iframe> */}
-           
+          
+            <div className="worktitles">
+              <p><strong>STARBUCKS</strong> Global Branding Promotion</p>
+              <hr/>
+              <br/>
+              </div>
+              
           <div className="styleframes">
             <img className="styleframe" src={styleframe1} alt="picture1" />
             <img className="styleframe" src={styleframe2} alt="picture2" />
