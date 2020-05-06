@@ -2,8 +2,8 @@ import React , {useState} from 'react';
 import Gallery from './Portfolio';
 import portfolio1 from './img/pic1.jpg';
 import portfolio2 from './img/pic2.jpg';
-import portfolio3 from './img/pic003.gif';
-import portfolio4 from './img/pic4.gif';
+import portfolio3 from './img/pic3.jpg';
+import portfolio4 from './img/pic4.jpg';
 import portfolio5 from './img/pic05.gif';
 import portfolio6 from './img/pic6.GIF';
 import portfolio7 from './img/pic7.gif';
@@ -14,6 +14,7 @@ import Footer from './Footer';
 import logo from './img/logo.png';
 import background from './img/line.svg';
 import './App.css';
+import { ReactSVG } from 'react-svg';
 
 function Work() {
   const [users, setUsers] = useState([
@@ -34,6 +35,7 @@ function Work() {
        <div>
       <img className="bg" src={background} alt="bg" />
       </div>
+      {/* <ReactSVG className="bg" src={background} /> */}
       <div>
       <img className="logo" src={logo} alt="logo" />
       </div>

@@ -81,19 +81,19 @@ a:visited{
 }
 .bg{
   position:absolute;
-  top:-25vh;
+  top:20px;
   left:0vw;
   opacity:75%;
 }
 .logo{
   position:absolute;
   top:3.5vh;
-  width:12vw;
+  width:150px;
 }
 .logoo{
   position:absolute;
   top:8vh;
-  width:7.5vw;
+  width:95px;
   margin-left:10vw;
 }
 .content{
@@ -179,7 +179,7 @@ span:hover:after {
 .pic{
   position: relative;
   width:32.5vw;
-  transition:1s;
+  transition:0.75s;
   /* top:-20vw; */
 
 }
@@ -190,6 +190,7 @@ span:hover:after {
 }
 .grid{
   background-color: rgba(244,244,244,0);
+  transition: 0.25s ;
   
 }
 .grid:hover{
@@ -218,7 +219,7 @@ text-align:center;
 align-items:center;
 color:white;
 top:20vw;
-
+transition:0.25s;
 }
 .worktitles hr{
   width:10%;
@@ -359,7 +360,7 @@ justify-content:space-evenly;
   display:flex;
   flex-direction:column;
   top:100px;
-  /* left:5vw; */
+  right:1vw;
 }
 .styleframe{
   position:relative;
