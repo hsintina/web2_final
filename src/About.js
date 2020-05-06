@@ -22,7 +22,7 @@ function About() {
       <h2>Hi there!</h2> 
     
       <p className="intro"><strong><em>I am Hsin Ting.</em></strong><br/> I am an illustration-based motion designer who dedicate to creating dynamic pieces with subtle illustration. 
-        I strive to combine 3D concept into 2D work.
+        I strive to combine 3D concepts into 2D works.
         Besides, I am interested in photography when I am free.</p>
         <p className="intro"> I currently live in New York. <br/>Feel free to contact me at <a target="_blank" href="mailto:hsintingting@gmail.com"> hsintingting@gmail.com</a><br/>See ya!</p>
       </div>
