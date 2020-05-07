@@ -39,7 +39,7 @@ function Work() {
       <div>
       <img className="logo" src={logo} alt="logo" />
       </div>
-      <h1 className="title">Hsin Tina</h1>
+      <h1 className="title">Motion</h1>
       <Nav />
       <div className="content">
       {users.map(user => (
