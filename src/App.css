@@ -197,17 +197,17 @@ span:hover:after {
 }
 
 .pic:hover{
-  opacity:0.3;
+  opacity:0;
   
 }
-/* .grid{
+.grid{
   background-color: rgba(244,244,244,0);
   transition: 0.25s ;
   
 }
 .grid:hover{
   background-color:rgb(142, 198, 197,0.5);
-} */
+}
 .gallery{
   position:relative;
   display:flex;
