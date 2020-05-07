@@ -12,7 +12,7 @@ function Hp(){
     <div>
       <img className="logo" src={logo} alt="logo" />
       </div>
-     <h1 className="title">Hsin Tina</h1>
+     <h1 className="title">Reel</h1>
      <Nav />
      {/* <div>
      <iframe className="reel" src="https://player.vimeo.com/video/414398968?color=ffffff&title=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>

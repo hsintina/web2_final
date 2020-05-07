@@ -1,7 +1,7 @@
 import React , {useState} from 'react';
 import Gallery from './Portfolio';
 import portfolio1 from './img/pic1.jpg';
-import portfolio2 from './img/pic2.jpg';
+import portfolio2 from './img/pic02.gif';
 import portfolio3 from './img/pic3.jpg';
 import portfolio4 from './img/pic4.jpg';
 import portfolio5 from './img/pic05.gif';
@@ -39,7 +39,7 @@ function Work() {
       <div>
       <img className="logo" src={logo} alt="logo" />
       </div>
-      <h1 className="title">Motion</h1>
+      <h1 className="title">Hsin Tina</h1>
       <Nav />
       <div className="content">
       {users.map(user => (

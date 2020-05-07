@@ -36,9 +36,9 @@ function App() {
     <div className="App">
       
       <Switch>
-      <Route path="/" exact component={Hp}/>
+      <Route path="/" exact component={Work}/>
       <Route path="/about" component={About}/>
-      <Route path="/motion" component={Work}/>
+      <Route path="/reel" component={Hp}/>
       <Route path="/illustration" component={Illustration}/>
       <Route path="/starbucks" component={Starbucks}/>
       <Route path="/anglerfish" component={Anglerfish}/>
