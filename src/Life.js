@@ -83,10 +83,11 @@ function Life() {
     }
   `}>    
           <div className="styleframes">
+            <img className="styleframe" src={styleframe2} alt="picture2" />
             <img className="styleframe" src={styleframe5} alt="picture5" />
             <img className="styleframe" src={styleframe3} alt="picture3" />
             <img className="styleframe" src={styleframe1} alt="picture1" />
-            <img className="styleframe" src={styleframe2} alt="picture2" />
+            
             <div >
               <Link className="back" to='/motion'>⟵ Back to Gallery</Link>
             </div>  
