@@ -190,14 +190,14 @@ span:hover:after {
 }
 .pic{
   position: relative;
-  width:32.5vw;
+  width:32.75vw;
   transition:0.75s;
   /* top:-20vw; */
 
 }
 
 .pic:hover{
-  opacity:0;
+  opacity:0.1;
   
 }
 .grid{
@@ -206,7 +206,7 @@ span:hover:after {
   
 }
 .grid:hover{
-  background-color:rgb(142, 198, 197,0.5);
+  background-color:rgba(244,244,244);
 }
 .gallery{
   position:relative;

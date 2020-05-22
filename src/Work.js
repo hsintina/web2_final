@@ -9,6 +9,9 @@ import portfolio6 from './img/pic6.GIF';
 import portfolio7 from './img/pic7.gif';
 import portfolio8 from './img/pic9.gif';
 import portfolio9 from './img/pic9.jpg';
+import portfolio10 from './img/Fire720.gif';
+import portfolio11 from './img/pengu.jpg';
+import portfolio12 from './img/numb.gif';
 import Nav from './Nav';
 import Footer from './Footer';
 import logo from './img/logo.png';
@@ -26,7 +29,12 @@ function Work() {
     { image:portfolio6 ,name:"Anglerfish",message:"doodle", link:'/anglerfish'},
     { image:portfolio9 ,name:"Zootopia",message:"title seq.", link:'/title' },
     { image:portfolio8 ,name:"Still",message:"to life", link:'/life' },
-    { image:portfolio7 ,name:"Suckway",message:"2D anime", link:'/suckway'}
+    { image:portfolio7 ,name:"Suckway",message:"2D anime", link:'/suckway'},
+    { image:portfolio11 ,name:"Penguin",message:"doodle", link:'/pengu'},
+    { image:portfolio12 ,name:"Count",message:"down", link:'/num'},
+    { image:portfolio10 ,name:"Fire",message:"SFX", link:'/fire'}
+    
+    
     
 
   ]);

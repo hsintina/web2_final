@@ -12,6 +12,9 @@ import Anglerfish from './Anglerfish';
 import Life from './Life.js';
 import Title from './Title.js';
 import Suckway from './Suckway.js';
+import Pengu from './Pengu.js';
+import Fire from './Fire.js';
+import Num from './Num.js';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import { setDefaultBreakpoints } from 'react-socks';
 import  {BreakpointProvider } from 'react-socks';
@@ -45,6 +48,9 @@ function App() {
       <Route path="/life" component={Life}/>
       <Route path="/title" component={Title}/>
       <Route path="/suckway" component={Suckway}/>
+      <Route path="/pengu" component={Pengu}/>
+      <Route path="/fire" component={Fire}/>
+      <Route path="/num" component={Num}/>
       </Switch>
     </div>
     </Router>
