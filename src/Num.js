@@ -9,7 +9,7 @@ import background from './img/line.svg';
 
 function Num() {
   const [users, setUsers] = useState([
-    { title:"Counting down" ,subtitle:"Geometric number", picture1:styleframe2, picture2:styleframe1},
+    { title:"Counting down" ,subtitle:"with geometric-shape number.", picture1:styleframe2, picture2:styleframe1},
 
   ]);
   return (
