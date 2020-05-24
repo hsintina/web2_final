@@ -10,7 +10,7 @@ import portfolio7 from './img/pic7.gif';
 import portfolio8 from './img/pic9.gif';
 import portfolio9 from './img/pic9.jpg';
 import portfolio10 from './img/Fire720.gif';
-import portfolio11 from './img/pengu.jpg';
+import portfolio11 from './img/pengu.gif';
 import portfolio12 from './img/numb.gif';
 import Nav from './Nav';
 import Footer from './Footer';
