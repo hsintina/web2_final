@@ -69,7 +69,7 @@ function Life() {
     }
   `}>
               <div>
-       <Link className="backs" to='/motion'>⟵ Back to Gallery</Link>
+       <Link className="backs" to='/works'>⟵ Back to Gallery</Link>
         </div>
         <div className="icons"><Footer/></div>
         <div className="copyrights">© Hsin Ting Lin 2020 </div>
@@ -89,7 +89,7 @@ function Life() {
             <img className="styleframe" src={styleframe1} alt="picture1" />
             
             <div >
-              <Link className="back" to='/motion'>⟵ Back to Gallery</Link>
+              <Link className="back" to='/works'>⟵ Back to Gallery</Link>
             </div>  
             <div><Footer/></div>
             <div className="copyright">© Hsin Ting Lin 2020 </div>

@@ -15,6 +15,9 @@ import Suckway from './Suckway.js';
 import Pengu from './Pengu.js';
 import Fire from './Fire.js';
 import Num from './Num.js';
+import Taco from './Taco.js';
+import Ikea from './Ikea.js';
+import Bee from './Bee.js';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import { setDefaultBreakpoints } from 'react-socks';
 import  {BreakpointProvider } from 'react-socks';
@@ -51,6 +54,9 @@ function App() {
       <Route path="/pengu" component={Pengu}/>
       <Route path="/fire" component={Fire}/>
       <Route path="/num" component={Num}/>
+      <Route path="/taco" component={Taco}/>
+      <Route path="/ikea" component={Ikea}/>
+      <Route path="/bee" component={Bee}/>
       </Switch>
     </div>
     </Router>

@@ -24,9 +24,9 @@ import { ReactSVG } from 'react-svg';
 
 function Work() {
   const [users, setUsers] = useState([
-    { image:portfolio13 ,name:"BEE POSITIVE", message:"3D doodle", link:'/starbucks' },
-    { image:portfolio14 ,name:"IKEA", message:"ident", link:'/starbucks' },
-    { image:portfolio15 ,name:"TACOSAN", message:"3D doodle", link:'/starbucks' },
+    { image:portfolio13 ,name:"BEE POSITIVE", message:"3D doodle", link:'/bee' },
+    { image:portfolio14 ,name:"IKEA", message:"ident", link:'/ikea' },
+    { image:portfolio15 ,name:"TACOSAN", message:"3D doodle", link:'/taco' },
     { image:portfolio1 ,name:"STARBUCKS", message:"ident", link:'/starbucks' },
     { image:portfolio3 ,name:"STARBUCKS", message:"ident", link:'/starbucks'},
     { image:portfolio5 ,name:"STARBUCKS",message:"ident", link:'/starbucks' },

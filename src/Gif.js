@@ -23,7 +23,7 @@ function Gif({title,subtitle,picture1,picture2}) {
             <img className="styleframe" src={picture1} alt="picture1" />
             <img className="styleframe" src={picture2} alt="picture2" />
             <div >
-       <Link className="back" to='/motion'>⟵ Back to Gallery</Link>
+       <Link className="back" to='/works'>⟵ Back to Gallery</Link>
         </div>
             <div><Footer/></div>
             <div className="copyright">© Hsin Ting Lin 2020 </div>

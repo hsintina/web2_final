@@ -66,7 +66,7 @@ function Starbucks() {
     }
   `}>
               <div>
-       <Link className="backs" to='/motion'>⟵ Back to Gallery</Link>
+       <Link className="backs" to='/works'>⟵ Back to Gallery</Link>
         </div>
         <div className="icons"><Footer/></div>
         <div className="copyrights">© Hsin Ting Lin 2020 </div>
@@ -84,7 +84,7 @@ function Starbucks() {
             <img className="styleframe" src={styleframe3} alt="picture3" />
             <img className="styleframe" src={styleframe4} alt="picture4" />
             <div>
-       <Link className="back" to='/motion'>⟵ Back to Gallery</Link>
+       <Link className="back" to='/works'>⟵ Back to Gallery</Link>
         </div>
         <div className="icons"><Footer/></div>
         <div className="copyright">© Hsin Ting Lin 2020 </div>
