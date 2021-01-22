@@ -2,7 +2,7 @@ import React , {useState} from 'react';
 import Gif from './Gif';
 import logo from './img/logo.png';
 import styleframe1 from './img/num.jpg';
-import styleframe2 from './img/num.gif';
+import styleframe2 from './img/count.gif';
 import Nav from './Nav';
 import './App.css';
 import background from './img/line.svg';

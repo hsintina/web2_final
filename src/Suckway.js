@@ -6,8 +6,6 @@ import styleframe2 from './img/pic902.gif';
 import styleframe3 from './img/pic903.gif';
 import styleframe4 from './img/pic904.gif';
 import styleframe5 from './img/pic905.png';
-import styleframe6 from './img/pic906.gif';
-import styleframe7 from './img/pic907.gif';
 import styleframe8 from './img/pic908.jpg';
 import styleframe9 from './img/pic909.jpg';
 import Footer from './Footer';

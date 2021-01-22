@@ -11,7 +11,10 @@ import portfolio8 from './img/pic8.jpg';
 import portfolio9 from './img/pic9.jpg';
 import portfolio10 from './img/Fire720.gif';
 import portfolio11 from './img/pengu.jpg';
-import portfolio12 from './img/numb.gif';
+import portfolio12 from './img/04.png';
+import portfolio13 from './img/bee.png';
+import portfolio14 from './img/ikea.png';
+import portfolio15 from './img/taco.png';
 import Nav from './Nav';
 import Footer from './Footer';
 import logo from './img/logo.png';
@@ -21,6 +24,9 @@ import { ReactSVG } from 'react-svg';
 
 function Work() {
   const [users, setUsers] = useState([
+    { image:portfolio13 ,name:"BEE POSITIVE", message:"3D doodle", link:'/starbucks' },
+    { image:portfolio14 ,name:"IKEA", message:"ident", link:'/starbucks' },
+    { image:portfolio15 ,name:"TACOSAN", message:"3D doodle", link:'/starbucks' },
     { image:portfolio1 ,name:"STARBUCKS", message:"ident", link:'/starbucks' },
     { image:portfolio3 ,name:"STARBUCKS", message:"ident", link:'/starbucks'},
     { image:portfolio5 ,name:"STARBUCKS",message:"ident", link:'/starbucks' },
