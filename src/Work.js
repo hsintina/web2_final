@@ -1,16 +1,16 @@
 import React , {useState} from 'react';
 import Gallery from './Portfolio';
 import portfolio1 from './img/pic1.jpg';
-import portfolio2 from './img/pic02.gif';
+import portfolio2 from './img/pic2.jpg';
 import portfolio3 from './img/pic3.jpg';
 import portfolio4 from './img/pic4.jpg';
-import portfolio5 from './img/pic05.gif';
+import portfolio5 from './img/pic5.jpg';
 import portfolio6 from './img/pic6.GIF';
 import portfolio7 from './img/pic7.gif';
-import portfolio8 from './img/pic9.gif';
+import portfolio8 from './img/pic8.jpg';
 import portfolio9 from './img/pic9.jpg';
 import portfolio10 from './img/Fire720.gif';
-import portfolio11 from './img/pengu.gif';
+import portfolio11 from './img/pengu.jpg';
 import portfolio12 from './img/numb.gif';
 import Nav from './Nav';
 import Footer from './Footer';
@@ -47,7 +47,7 @@ function Work() {
       <div>
       <img className="logo" src={logo} alt="logo" />
       </div>
-      <h1 className="title">Motion</h1>
+      <h1 className="title">Works</h1>
       <Nav />
       <div className="content">
       {users.map(user => (
