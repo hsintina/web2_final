@@ -34,9 +34,10 @@ function Work() {
     { image:portfolio4 ,name:"STARBUCKS",message:"ident", link:'/starbucks'},
     { image:portfolio6 ,name:"Anglerfish",message:"doodle", link:'/anglerfish'},
     { image:portfolio9 ,name:"Zootopia",message:"title seq.", link:'/title' },
-    { image:portfolio8 ,name:"Still",message:"to life", link:'/life' },
-    { image:portfolio7 ,name:"Suckway",message:"2D anime", link:'/suckway'},
     { image:portfolio11 ,name:"Penguin",message:"doodle", link:'/pengu'},
+    
+    { image:portfolio7 ,name:"Suckway",message:"2D anime", link:'/suckway'},
+    { image:portfolio8 ,name:"Still",message:"to life", link:'/life' },
     { image:portfolio12 ,name:"Count",message:"down", link:'/num'},
     { image:portfolio10 ,name:"Fire",message:"SFX", link:'/fire'}
     
