@@ -2,7 +2,7 @@ import React from 'react';
 import Nav from './Nav';
 import './App.css';
 import Footer from './Footer';
-import profile from './img/me12.gif';
+import profile from './img/myprofile.gif';
 import logo from './img/logo.png';
 import background from './img/line.svg';
 function About() {
