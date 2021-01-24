@@ -69,7 +69,7 @@ function Bee() {
        <Link className="backs" to='/works'>⟵ Back to Gallery</Link>
         </div>
         <div className="icons"><Footer/></div>
-        <div className="copyrights">© Hsin Ting Lin 2020 </div>
+        <div className="copyrights">© Hsin Ting Lin 2021 </div>
               </div>
             </div>
               </div>
@@ -86,7 +86,7 @@ function Bee() {
        <Link className="back" to='/works'>⟵ Back to Gallery</Link>
         </div>
         <div className="icons"><Footer/></div>
-        <div className="copyright">© Hsin Ting Lin 2020 </div>
+        <div className="copyright">© Hsin Ting Lin 2021 </div>
             </div >
               
             

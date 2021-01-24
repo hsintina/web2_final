@@ -62,7 +62,7 @@ function Work() {
       ))}
     </div>
     <div><Footer /></div>
-    <div className="copy">© Hsin Ting Lin 2020 </div>
+    <div className="copy">© Hsin Ting Lin 2021 </div>
     </div>
   );
 }

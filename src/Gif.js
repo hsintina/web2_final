@@ -26,7 +26,7 @@ function Gif({title,subtitle,picture1,picture2}) {
        <Link className="back" to='/works'>⟵ Back to Gallery</Link>
         </div>
             <div><Footer/></div>
-            <div className="copyright">© Hsin Ting Lin 2020 </div>
+            <div className="copyright">© Hsin Ting Lin 2021 </div>
           </div>
      </div>
   );

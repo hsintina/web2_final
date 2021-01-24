@@ -23,7 +23,7 @@ function Hp(){
             </div>
             <script src="https://player.vimeo.com/api/player.js"></script>
     <div><Footer/></div>
-    <div className="copy">© Hsin Ting Lin 2020 </div>
+    <div className="copy">© Hsin Ting Lin 2021 </div>
     </div>
     
  
