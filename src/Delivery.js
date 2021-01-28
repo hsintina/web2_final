@@ -2,7 +2,7 @@ import React  from 'react';
 import Nav from './Nav';
 import './App.css';
 
-import styleframe1 from './img/bee1.jpg';
+import styleframe1 from './img/delivery.png';
 import styleframe2 from './img/bee2.jpg';
 import styleframe3 from './img/bee3.png';
 
@@ -12,7 +12,7 @@ import{ Link } from 'react-router-dom';
 import background from './img/line.svg';
 import { css, cx } from 'emotion';
 
-function Bee() {
+function Delivery() {
 
   return (
     <div className="app">
@@ -32,34 +32,38 @@ function Bee() {
   `}>
       <div className="wording">
             <div className="worktitle">
-              <h1 className="projectName">Bee Positive</h1>
-              <p>3D doodle</p>
+              <h1 className="projectName">Happy delivery</h1>
+              <p>Deliveryman in the mood. And not.</p>
               <hr/>
               <br/>
-              <p>🐝</p>
+              <p>work-in-progress thesis work.</p>
  
               
             </div>
           </div>
           </div>
         <div className="visual">
-          {/* <div className="playerr">
-            <iframe className="videor" src="https://player.vimeo.com/video/411989157?color=ffffff&title=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen>
-            </iframe>
-          </div>
-          <script src="https://player.vimeo.com/api/player.js"></script> */}
-            <iframe className="video" src="https://player.vimeo.com/video/503595768?autoplay=1&loop=1&title=0&byline=0&portrait=0"   frameborder="0" allow="autoplay fullscreen picture-in-picture" allowFullScreen></iframe>
+        <div className="styleframes">
+            <img className="styleframe" src={styleframe1} alt="picture1" />
+            <div>
+            <iframe className="video" src="https://player.vimeo.com/video/505476188?autoplay=1&loop=1&title=0&byline=0&portrait=0"   frameborder="0" allow="autoplay fullscreen picture-in-picture" allowFullScreen></iframe>
+            <br/>
+
+            <iframe className="video" src="https://player.vimeo.com/video/505476107?autoplay=1&loop=1&title=0&byline=0&portrait=0"   frameborder="0" allow="autoplay fullscreen picture-in-picture" allowFullScreen></iframe>
+            <br/>
+            <iframe className="video" src="https://player.vimeo.com/video/505476006?autoplay=1&loop=1&title=0&byline=0&portrait=0"   frameborder="0" allow="autoplay fullscreen picture-in-picture" allowFullScreen></iframe>
+            <br/>
             <div className={css`
     @media (min-width: 1000px) {
       display: none;
     }
   `}>
             <div className="worktitle">
-              <h1 className="projectName">Bee Positive</h1>
-              <p>3D doodle</p>
+              <h1 className="projectName">Happy delivery</h1>
+              <p>Deliveryman in the mood. And not.</p>
               <hr/>
               <br/>
-              <p>🐝</p>
+              <p>work-in-progress thesis work.</p>
               <div className={css`
     @media (min-width: 768px) {
       display: none;
@@ -78,11 +82,7 @@ function Bee() {
       display: none;
     }
   `}>    
-          <div className="styleframes">
-            <img className="styleframe" src={styleframe1} alt="picture1" />
-            <img className="styleframe" src={styleframe2} alt="picture2" />
-            <img className="styleframe" src={styleframe3} alt="picture3" />
-            <div>
+          
        <Link className="back" to='/works'>⟵ Back to Gallery</Link>
         </div>
         <div className="icons"><Footer/></div>
@@ -104,4 +104,4 @@ function Bee() {
   );
 }
 
-export default Bee;
+export default Delivery;

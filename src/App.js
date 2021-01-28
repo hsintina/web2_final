@@ -18,6 +18,8 @@ import Num from './Num.js';
 import Taco from './Taco.js';
 import Ikea from './Ikea.js';
 import Bee from './Bee.js';
+import Egg from './Egg.js';
+import Delivery from './Delivery.js';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import { setDefaultBreakpoints } from 'react-socks';
 import  {BreakpointProvider } from 'react-socks';
@@ -57,6 +59,8 @@ function App() {
       <Route path="/taco" component={Taco}/>
       <Route path="/ikea" component={Ikea}/>
       <Route path="/bee" component={Bee}/>
+      <Route path="/egg" component={Egg}/>
+      <Route path="/delivery" component={Delivery}/>
       </Switch>
     </div>
     </Router>
