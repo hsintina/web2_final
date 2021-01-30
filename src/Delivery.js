@@ -3,7 +3,7 @@ import Nav from './Nav';
 import './App.css';
 
 import styleframe1 from './img/delivery.png';
-import styleframe2 from './img/bee2.jpg';
+import styleframe2 from './img/scene1.jpg';
 import styleframe3 from './img/bee3.png';
 
 import logo from './img/logo.png';
@@ -44,15 +44,17 @@ function Delivery() {
           </div>
         <div className="visual">
         <div className="styleframes">
-            <img className="styleframe" src={styleframe1} alt="picture1" />
+            {/* <img className="styleframe" src={styleframe1} alt="picture1" /> */}
             <div>
             <iframe className="video" src="https://player.vimeo.com/video/505476188?autoplay=1&loop=1&title=0&byline=0&portrait=0"   frameborder="0" allow="autoplay fullscreen picture-in-picture" allowFullScreen></iframe>
             <br/>
-
             <iframe className="video" src="https://player.vimeo.com/video/505476107?autoplay=1&loop=1&title=0&byline=0&portrait=0"   frameborder="0" allow="autoplay fullscreen picture-in-picture" allowFullScreen></iframe>
             <br/>
             <iframe className="video" src="https://player.vimeo.com/video/505476006?autoplay=1&loop=1&title=0&byline=0&portrait=0"   frameborder="0" allow="autoplay fullscreen picture-in-picture" allowFullScreen></iframe>
             <br/>
+            <img className="styleframe" src={styleframe1} alt="picture1" />
+            <img className="styleframe" src={styleframe2} alt="picture1" />
+            {/* <iframe src="https://player.vimeo.com/video/506529069?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe> */}
             <div className={css`
     @media (min-width: 1000px) {
       display: none;
