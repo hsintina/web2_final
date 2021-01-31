@@ -3,8 +3,8 @@ import Nav from './Nav';
 import './App.css';
 
 import styleframe1 from './img/delivery.png';
-import styleframe2 from './img/scene1.jpg';
-import styleframe3 from './img/bee3.png';
+import styleframe2 from './img/scene1.png';
+
 
 import logo from './img/logo.png';
 import Footer from './Footer';
@@ -42,19 +42,10 @@ function Delivery() {
             </div>
           </div>
           </div>
-        <div className="visual">
-        <div className="styleframes">
-            {/* <img className="styleframe" src={styleframe1} alt="picture1" /> */}
-            <div>
-            <iframe className="video" src="https://player.vimeo.com/video/505476188?autoplay=1&loop=1&title=0&byline=0&portrait=0"   frameborder="0" allow="autoplay fullscreen picture-in-picture" allowFullScreen></iframe>
-            <br/>
-            <iframe className="video" src="https://player.vimeo.com/video/505476107?autoplay=1&loop=1&title=0&byline=0&portrait=0"   frameborder="0" allow="autoplay fullscreen picture-in-picture" allowFullScreen></iframe>
-            <br/>
-            <iframe className="video" src="https://player.vimeo.com/video/505476006?autoplay=1&loop=1&title=0&byline=0&portrait=0"   frameborder="0" allow="autoplay fullscreen picture-in-picture" allowFullScreen></iframe>
-            <br/>
-            <img className="styleframe" src={styleframe1} alt="picture1" />
-            <img className="styleframe" src={styleframe2} alt="picture1" />
-            {/* <iframe src="https://player.vimeo.com/video/506529069?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe> */}
+          <div className="visual">
+          <iframe className="video" src="https://player.vimeo.com/video/505476188?autoplay=1&loop=1&title=0&byline=0&portrait=0" frameborder="0" allow="autoplay fullscreen picture-in-picture" allowFullScreen></iframe><br/>
+          <iframe className="video" src="https://player.vimeo.com/video/505476107?autoplay=1&loop=1&title=0&byline=0&portrait=0" frameborder="0" allow="autoplay fullscreen picture-in-picture" allowFullScreen></iframe><br/>
+          <iframe className="video" src="https://player.vimeo.com/video/505476006?autoplay=1&loop=1&title=0&byline=0&portrait=0" frameborder="0" allow="autoplay fullscreen picture-in-picture" allowFullScreen></iframe><br/>
             <div className={css`
     @media (min-width: 1000px) {
       display: none;
@@ -84,7 +75,10 @@ function Delivery() {
       display: none;
     }
   `}>    
-          
+          <div className="styleframes">
+            <img className="styleframe" src={styleframe1} alt="picture1" />
+            <img className="styleframe" src={styleframe2} alt="picture2" />
+            <div>
        <Link className="back" to='/works'>⟵ Back to Gallery</Link>
         </div>
         <div className="icons"><Footer/></div>

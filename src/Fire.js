@@ -9,7 +9,7 @@ import background from './img/line.svg';
 
 function Fire() {
   const [users, setUsers] = useState([
-    { title:"Fire" ,subtitle:"SFX animation", picture1:styleframe2, picture2:styleframe1},
+    { title:"Fire" ,subtitle:"SFX animation", picture1:styleframe1, picture2:styleframe2},
 
   ]);
   return (
