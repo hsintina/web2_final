@@ -4,7 +4,7 @@ import './App.css';
 
 import styleframe1 from './img/delivery.png';
 import styleframe2 from './img/scene1.png';
-
+import styleframe3 from './img/boy.jpg';
 
 import logo from './img/logo.png';
 import Footer from './Footer';
@@ -78,6 +78,7 @@ function Delivery() {
           <div className="styleframes">
             <img className="styleframe" src={styleframe1} alt="picture1" />
             <img className="styleframe" src={styleframe2} alt="picture2" />
+            <img className="styleframe" src={styleframe3} alt="picture3" />
             <div>
        <Link className="back" to='/works'>⟵ Back to Gallery</Link>
         </div>
