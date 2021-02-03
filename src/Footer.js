@@ -16,7 +16,7 @@ function Footer() {
            <a target="_blank" href="mailto:hsintingting@gmail.com">
            <img className="icon" src={icon3} alt="email"  /> 
            </a>
-           <a target="_blank" href="https://www.instagram.com/hsin_tina">
+           <a target="_blank" href="https://www.instagram.com/anitnish">
            <img className="icon" src={icon2} alt="instagram/hsin_tina"  /> 
            </a>
            <a target="_blank" href="https://www.linkedin.com/in/hsintingting">
