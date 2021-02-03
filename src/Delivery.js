@@ -6,7 +6,7 @@ import styleframe1 from './img/delivery.png';
 import styleframe2 from './img/scene1.png';
 import styleframe3 from './img/boy.jpg';
 import styleframe4 from './img/football.jpg';
-import styleframe5 from './img/lady.jpg';
+import styleframe5 from './img/lady-1.jpg';
 
 import logo from './img/logo.png';
 import Footer from './Footer';
