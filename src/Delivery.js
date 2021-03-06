@@ -35,7 +35,7 @@ function Delivery() {
       <div className="wording">
             <div className="worktitle">
               <h1 className="projectName">Happy delivery</h1>
-              <p>Deliveryman in the mood. And not.</p>
+              <p>Deliveryman in the mood. And not. Made with Cinema 4D, Redshift Render</p>
               <hr/>
               <br/>
               <p>work-in-progress thesis work.</p>

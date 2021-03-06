@@ -43,11 +43,6 @@ function Bee() {
           </div>
           </div>
         <div className="visual">
-          {/* <div className="playerr">
-            <iframe className="videor" src="https://player.vimeo.com/video/411989157?color=ffffff&title=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen>
-            </iframe>
-          </div>
-          <script src="https://player.vimeo.com/api/player.js"></script> */}
             <iframe className="video" src="https://player.vimeo.com/video/503595768?autoplay=1&loop=1&title=0&byline=0&portrait=0"   frameborder="0" allow="autoplay fullscreen picture-in-picture" allowFullScreen></iframe>
             <div className={css`
     @media (min-width: 1000px) {

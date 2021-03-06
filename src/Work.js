@@ -5,6 +5,7 @@ import portfolio2 from './img/pic2.jpg';
 import portfolio3 from './img/pic3.jpg';
 import portfolio4 from './img/pic4.jpg';
 import portfolio5 from './img/pic5.jpg';
+// import portfolio6 from './img/teabb.jpg';
 import portfolio6 from './img/pic6.GIF';
 import portfolio7 from './img/pic7.gif';
 import portfolio8 from './img/pic8.jpg';
@@ -16,7 +17,8 @@ import portfolio13 from './img/bee.png';
 import portfolio14 from './img/ikea.png';
 import portfolio15 from './img/taco.png';
 import portfolio16 from './img/thesis.jpg';
-import portfolio17 from './img/egg.jpg';
+import portfolio17 from './img/taibee.jpg';
+import portfolio18 from './img/teabb.jpg';
 
 import Nav from './Nav';
 import Footer from './Footer';
@@ -31,10 +33,10 @@ function Work() {
     { image:portfolio14 ,name:"IKEA", message:"ident", link:'/ikea' },
     { image:portfolio16 ,name:"Happy delivery", message:"wip", link:'/delivery' },
     { image:portfolio15 ,name:"TACOSAN", message:"3D doodle", link:'/taco' },
-    
-    { image:portfolio17 ,name:"Breakfast Set", message:"personal works", link:'/egg' },
-
-    { image:portfolio6 ,name:"Anglerfish",message:"doodle", link:'/anglerfish'},
+    // { image:portfolio17 ,name:"Breakfast Set", message:"personal works", link:'/egg' },
+    { image:portfolio17 ,name:"Taiwan Beer", message:"personal works", link:'/taibeer' },
+    // { image:portfolio6 ,name:"Anglerfish",message:"doodle", link:'/anglerfish'},
+    { image:portfolio18 ,name:"Bubble Paradise",message:"3D doodle", link:'/bubble'},
 
     { image:portfolio1 ,name:"STARBUCKS", message:"ident", link:'/starbucks' },
     { image:portfolio3 ,name:"STARBUCKS", message:"ident", link:'/starbucks'},
@@ -46,7 +48,7 @@ function Work() {
     { image:portfolio7 ,name:"Suckway",message:"2D anime", link:'/suckway'},
     { image:portfolio12 ,name:"Count",message:"down", link:'/num'},
     // { image:portfolio9 ,name:"Zootopia",message:"title seq.", link:'/title' },
-    { image:portfolio10 ,name:"Fire",message:"SFX", link:'/fire'},
+    { image:portfolio6 ,name:"Anglerfish",message:"doodle", link:'/anglerfish'},
  
     // { image:portfolio8 ,name:"Still",message:"to life", link:'/life' },
 

@@ -116,7 +116,16 @@ a:visited{
   justify-content: space-around;
   align-items: left;
   align-content:flex-start;
-
+}
+.gifcontent{
+  width:10 vw;
+  position: relative;
+  /* display:flex; */
+  /* flex-direction: row; */
+  /* flex-wrap: wrap; */
+  /* justify-content: space-around; */
+  /* align-items: left; */
+  /* align-content:flex-start; */
 }
 .profile{
   width:10vw;
@@ -323,6 +332,17 @@ justify-content:space-evenly;
   justify-content: flex-start;
   align-content: center; */
 }
+.visual6{
+  position:relative;
+  right:10vw;
+  width:60vw;
+  height:100vh;
+  top:-50px;
+  /* display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: center; */
+}
 .reel{
   position:relative;
   display:flex;
@@ -380,6 +400,14 @@ justify-content:space-evenly;
   justify-content: flex-end;
   width: 55vw;;
   padding:10px;
+  /* margin-top: 5vh; */
+}
+.styleframe6{
+  position:relative;
+  /* display:flex; */
+  justify-content: flex-end;
+  width: 25vw;;
+  padding:3px;
   /* margin-top: 5vh; */
 }
 .copy{

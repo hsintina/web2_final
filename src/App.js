@@ -20,6 +20,8 @@ import Ikea from './Ikea.js';
 import Bee from './Bee.js';
 import Egg from './Egg.js';
 import Delivery from './Delivery.js';
+import Bubble from './Bubble.js';
+import Taibeer from './Taibeer.js';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import { setDefaultBreakpoints } from 'react-socks';
 import  {BreakpointProvider } from 'react-socks';
@@ -61,6 +63,8 @@ function App() {
       <Route path="/bee" component={Bee}/>
       <Route path="/egg" component={Egg}/>
       <Route path="/delivery" component={Delivery}/>
+      <Route path="/bubble" component={Bubble}/>
+      <Route path="/taibeer" component={Taibeer}/>
       </Switch>
     </div>
     </Router>

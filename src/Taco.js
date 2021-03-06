@@ -9,7 +9,7 @@ import background from './img/line.svg';
 
 function Taco() {
   const [users, setUsers] = useState([
-    { title:"Tacosan" ,subtitle:"A sausage, one of the common dishes in japanese lunchbox, disguises himself as an octopus, with some rice on his feet.", picture1:styleframe1, picture2:styleframe2},
+    { title:"Tacosan" ,subtitle:"A sausage, one of the common dishes in japanese lunchbox, disguises himself as an octopus, with some rice on his feet. Made with Cinema 4D, Redshift Render", picture1:styleframe1, picture2:styleframe2},
 
   ]);
   return (
