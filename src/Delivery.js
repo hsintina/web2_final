@@ -3,10 +3,11 @@ import Nav from './Nav';
 import './App.css';
 
 import styleframe1 from './img/delivery.png';
-import styleframe2 from './img/scene1.png';
+import styleframe2 from './img/scene01.jpg';
 import styleframe3 from './img/boy.jpg';
 import styleframe4 from './img/football.jpg';
 import styleframe5 from './img/lady-1.jpg';
+import styleframe6 from './img/assets-01.jpg';
 
 import logo from './img/logo.png';
 import Footer from './Footer';
@@ -84,6 +85,7 @@ function Delivery() {
             <img className="styleframe" src={styleframe5} alt="character 4" />
             <img className="styleframe" src={styleframe4} alt="character 3" />
             <img className="styleframe" src={styleframe3} alt="character 2" />
+            <img className="styleframe" src={styleframe6} alt="character 2" />
             <div>
        <Link className="back" to='/works'>⟵ Back to Gallery</Link>
         </div>
