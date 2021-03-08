@@ -9,8 +9,6 @@ import Starbucks from './Starbucks';
 import Hp from './Hp';
 import ScrollToTop from './ScrollToTop';
 import Anglerfish from './Anglerfish';
-import Life from './Life.js';
-import Title from './Title.js';
 import Suckway from './Suckway.js';
 import Pengu from './Pengu.js';
 import Fire from './Fire.js';
@@ -52,8 +50,6 @@ function App() {
       <Route path="/illustration" component={Illustration}/>
       <Route path="/starbucks" component={Starbucks}/>
       <Route path="/anglerfish" component={Anglerfish}/>
-      <Route path="/life" component={Life}/>
-      <Route path="/title" component={Title}/>
       <Route path="/suckway" component={Suckway}/>
       <Route path="/pengu" component={Pengu}/>
       <Route path="/fire" component={Fire}/>
