@@ -16,7 +16,7 @@ import portfolio12 from './img/04.png';
 import portfolio13 from './img/bee.png';
 import portfolio14 from './img/ikea.png';
 import portfolio15 from './img/taco.png';
-import portfolio16 from './img/thesis.jpg';
+import portfolio16 from './img/hi-0015.jpg';
 import portfolio17 from './img/taibee.jpg';
 import portfolio18 from './img/teabb.jpg';
 
