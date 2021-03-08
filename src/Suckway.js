@@ -1,13 +1,11 @@
 import React from 'react';
 import Nav from './Nav';
 import './App.css';
-import styleframe1 from './img/pic901.gif';
-import styleframe2 from './img/pic902.gif';
-import styleframe3 from './img/pic903.gif';
-import styleframe4 from './img/pic904.gif';
+
 import styleframe5 from './img/pic905.png';
 import styleframe8 from './img/pic908.jpg';
 import styleframe9 from './img/pic909.jpg';
+import styleframe7 from './img/pic7.gif';
 import Footer from './Footer';
 import logo from './img/logo.png';
 import{ Link } from 'react-router-dom';
@@ -82,11 +80,8 @@ function Suckway() {
             <div className="styleframes">
               <img className="styleframe" src={styleframe8} alt="picture8" />
               <img className="styleframe" src={styleframe9} alt="picture9" />
-              <img className="styleframe" src={styleframe1} alt="picture1" />
-              <img className="styleframe" src={styleframe2} alt="picture2" />
-              <img className="styleframe" src={styleframe3} alt="picture3" />
-              <img className="styleframe" src={styleframe4} alt="picture4" />
               <img className="styleframe" src={styleframe5} alt="picture5" />
+              <img className="styleframe" src={styleframe7} alt="picture7" />
               <div >
                 <Link className="back" to='/works'>⟵ Back to Gallery</Link>
               </div>

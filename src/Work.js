@@ -7,7 +7,7 @@ import portfolio4 from './img/pic4.jpg';
 import portfolio5 from './img/pic5.jpg';
 // import portfolio6 from './img/teabb.jpg';
 import portfolio6 from './img/pic6.GIF';
-import portfolio7 from './img/pic7.gif';
+import portfolio7 from './img/pic07.jpg';
 import portfolio10 from './img/Fire720.gif';
 import portfolio11 from './img/pengu.jpg';
 import portfolio12 from './img/04.png';
