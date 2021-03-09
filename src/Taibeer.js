@@ -1,10 +1,10 @@
 import React , {useState} from 'react';
 import Gif4 from './Gif4';
 import logo from './img/logo.png';
-import styleframe1 from './img/beer-001.jpg';
+import styleframe1 from './img/beer-001s.jpg';
 import styleframe2 from './img/beer-004.jpg';
-import styleframe3 from './img/beer-006.jpg';
-import styleframe4 from './img/beer-005.jpg';
+import styleframe3 from './img/beer-006s.jpg';
+import styleframe4 from './img/beer-005s.jpg';
 
 // import styleframe5 from './img/qurofune3.jpg';
 import Nav from './Nav';

@@ -15,7 +15,7 @@ import portfolio13 from './img/bee.png';
 import portfolio14 from './img/ikea.png';
 import portfolio15 from './img/taco.png';
 import portfolio16 from './img/hi-0015.jpg';
-import portfolio17 from './img/beer-005.jpg';
+import portfolio17 from './img/beer-005s.jpg';
 import portfolio18 from './img/teabb.jpg';
 
 import Nav from './Nav';
